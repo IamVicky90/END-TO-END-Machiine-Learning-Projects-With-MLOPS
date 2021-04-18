@@ -1,0 +1,5 @@
+2021-04-18		00:41:09	Pandas Dataframe executed successfully
+2021-04-18		00:41:09	Successfully called the process_data method from Processing
+2021-04-18		00:41:09	 Successfully complete the process of remove columns
+2021-04-18		00:41:09	 Successfully complete the process of seprate_labels_and_features
+2021-04-18		00:41:09	 Successfully complete the process of isnull
