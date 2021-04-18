@@ -1,1 +1,1 @@
-2021-04-18		00:40:17	Succcessfully created the TrainingBadRawDataFolder directory
+2021-04-19		00:02:13	Succcessfully created the TrainingBadRawDataFolder directory

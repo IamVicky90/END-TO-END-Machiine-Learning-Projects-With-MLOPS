@@ -54,27 +54,27 @@ class preocess_data:
         except Exception as e:
             self.log.log(self.file,f"\terror occured in isnull method: "+str(e))
             self.log.log(self.exception_file,f"\terror occured in isnull method: "+str(e))
-     def knn_nan_values_imputer(self,data):
+    def knn_nan_values_imputer(self,data):
         try:
             imputer = KNNImputer(n_neighbors=3)
             array_data=imputer.fit_transform(data)
-            self.log(self.file,'\tSuccessfully fill the nan values with the help of knn imputer')
+            self.log.log(self.file,'\tSuccessfully fill the nan values with the help of knn imputer')
             return pd.DataFrame(array_data,columns=data.columns)
         except Exception as e:
-            self.log(self.file,"\tCouldn't fill the nan values with the help of knn imputer due to error: "+str(e))
-            self.log(self.exception_file,"\tCouldn't fill the nan values with the help of knn imputer due to error: "+str(e))
+            self.log.log(self.file,"\tCouldn't fill the nan values with the help of knn imputer due to error: "+str(e))
+            self.log.log(self.exception_file,"\tCouldn't fill the nan values with the help of knn imputer due to error: "+str(e))
     def drop_column_with_std_zero(self,data):
         try:
             zero_std_col=[]
             for col in data.columns:
                 if data[col].describe()['std']==0:
                     zero_std_col.append(col)
-                    self.log(self.file,f'\tWarning: {col} has zero standared deviation')
-            self.log(self.file,f'\t{col} columns removed sucessfully as they has zero standared deviation')
+                    self.log.log(self.file,f'\tWarning: {col} has zero standared deviation')
+            self.log.log(self.file,f'\t{col} columns removed sucessfully as they has zero standared deviation')
             return self.remove_column(data,zero_std_col)
         except:
-            self.log(self.file,f"\tCouldn't complete the process of drop_column_with_std_zero due to error: "+str(e))
-            self.log(self.exception_file,f"\tCouldn't complete the process of drop_column_with_std_zero due to error: "+str(e))
+            self.log.log(self.file,f"\tCouldn't complete the process of drop_column_with_std_zero due to error: "+str(e))
+            self.log.log(self.exception_file,f"\tCouldn't complete the process of drop_column_with_std_zero due to error: "+str(e))
 
 
     def __str__(self):
