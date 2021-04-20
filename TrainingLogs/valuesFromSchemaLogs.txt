@@ -1,2 +1,0 @@
-2021-04-19		00:02:13	Sucessfully send values from schema.json file values are LengthOfDateStampInFile:8		  LengthOfTimeStampInFile:6		 NumberofColumns:592
-

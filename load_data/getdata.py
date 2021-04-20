@@ -8,7 +8,6 @@ class getdata:
     def datagetter(self):
         try:
             df=pd.read_csv('TrainingFileFromDB/trainingInput.csv')
-            # print(self.df.head())
             self.log.log(self.file,'\tSucessfully converted data into pandas dataframe')
             self.file.close()
             self.exception_file.close()
