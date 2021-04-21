@@ -11,7 +11,7 @@ class model_finder:
     def best_model(self,x_train,x_test,y_train,y_test):
         try:
             rfc=RandomForestClassifier()
-            rf_=self.rfc_hyperparameter_tunning(rfc,x_train,y_train)
+            rf=self.rfc_hyperparameter_tunning(rfc,x_train,y_train)
             # rf.fit(train_features, train_labels)
             # CV_rfc.fit(x_train, y_train)
             rf.fit(x_train,y_train)
