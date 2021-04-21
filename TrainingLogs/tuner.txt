@@ -1,0 +1,21 @@
+2021-04-21		21:16:39	Best params for random forest are; criterion : gini, max_depth : 4, max_features : log2, n_estimators : 200
+2021-04-21		21:16:39	Sucessfully loaded, fit and predict the x_test by Random Forest
+2021-04-21		21:16:39	roc_auc_score score for Random_Forest is 0.5
+2021-04-21		21:22:56	Best params for XGBOOST are; learning_rate : 0.1, max_depth : 3,  n_estimators : 200
+2021-04-21		21:22:58	Sucessfully loaded, fit and predict the x_test by XGBClassifier
+2021-04-21		21:22:58	roc_auc_score score for XGBClassifier is 0.5
+2021-04-21		21:22:58	Best model name for this cluster is XGBClassifier
+2021-04-21		21:25:23	Best params for random forest are; criterion : gini, max_depth : 4, max_features : auto, n_estimators : 200
+2021-04-21		21:25:23	Sucessfully loaded, fit and predict the x_test by Random Forest
+2021-04-21		21:25:23	roc_auc_score score for Random_Forest is 0.5
+2021-04-21		21:26:51	Best params for XGBOOST are; learning_rate : 0.5, max_depth : 3,  n_estimators : 10
+2021-04-21		21:26:51	Sucessfully loaded, fit and predict the x_test by XGBClassifier
+2021-04-21		21:26:51	roc_auc_score score for XGBClassifier is 0.5
+2021-04-21		21:26:51	Best model name for this cluster is XGBClassifier
+2021-04-21		21:29:39	Best params for random forest are; criterion : gini, max_depth : 4, max_features : auto, n_estimators : 200
+2021-04-21		21:29:39	Sucessfully loaded, fit and predict the x_test by Random Forest
+2021-04-21		21:29:39	roc_auc_score score for Random_Forest is 0.5
+2021-04-21		21:31:56	Best params for XGBOOST are; learning_rate : 0.1, max_depth : 3,  n_estimators : 100
+2021-04-21		21:31:57	Sucessfully loaded, fit and predict the x_test by XGBClassifier
+2021-04-21		21:31:57	roc_auc_score score for XGBClassifier is 0.5
+2021-04-21		21:31:57	Best model name for this cluster is XGBClassifier

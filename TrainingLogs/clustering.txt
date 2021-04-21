@@ -1,3 +1,3 @@
-2021-04-22		02:28:29	3 are the appropriate number for clusters
-2021-04-22		02:28:29	Successfully created the clusters in create_clusters method!
-2021-04-22		02:28:29Successfully called the model_obj
+2021-04-21		21:11:53	3 are the appropriate number for clusters
+2021-04-21		21:11:53	Successfully created the clusters in create_clusters method!
+2021-04-21		21:11:53Successfully called the model_obj

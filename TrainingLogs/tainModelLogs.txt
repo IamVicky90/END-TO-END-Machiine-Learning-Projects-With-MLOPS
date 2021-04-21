@@ -1,8 +1,8 @@
-2021-04-22		02:28:10	Pandas Dataframe executed successfully
-2021-04-22		02:28:10	Successfully called the process_data method from Processing
-2021-04-22		02:28:10	Successfully complete the process of remove columns
-2021-04-22		02:28:10	Successfully complete the process of seprate_labels_and_features
-2021-04-22		02:28:10	Successfully complete the process of isnull
-2021-04-22		02:28:14	Successfully complete the process of knn_nan_values_imputer
-2021-04-22		02:28:29	Successfully complete the process of elbow_method the no of clusters are 3
-2021-04-22		02:28:29	Successfully complete the process of create_clusters
+2021-04-21		21:11:45	Pandas Dataframe executed successfully
+2021-04-21		21:11:45	Successfully called the process_data method from Processing
+2021-04-21		21:11:45	Successfully complete the process of remove columns
+2021-04-21		21:11:45	Successfully complete the process of seprate_labels_and_features
+2021-04-21		21:11:45	Successfully complete the process of isnull
+2021-04-21		21:11:46	Successfully complete the process of knn_nan_values_imputer
+2021-04-21		21:11:53	Successfully complete the process of elbow_method the no of clusters are 3
+2021-04-21		21:11:53	Successfully complete the process of create_clusters

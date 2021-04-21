@@ -1,14 +1,14 @@
-2021-04-22		02:27:38	Successfully Established the DataBase Connection
-2021-04-22		02:27:51	Table Created Successfully
-2021-04-22		02:27:51	Successfully Established the DataBase Connection
-2021-04-22		02:27:53	Training_Batch_Files_wafer_13012020_090817.csv: File loaded successfully!!
-2021-04-22		02:27:56	Training_Batch_Files_wafer_16012020_051629.csv: File loaded successfully!!
-2021-04-22		02:27:57	Training_Batch_Files_wafer_20022020_090716.csv: File loaded successfully!!
-2021-04-22		02:27:59	Training_Batch_Files_wafer_21012020_080913.csv: File loaded successfully!!
-2021-04-22		02:28:01	Training_Batch_Files_wafer_23012020_041211.csv: File loaded successfully!!
-2021-04-22		02:28:03	Training_Batch_Files_wafer_27012020_080911.csv: File loaded successfully!!
-2021-04-22		02:28:05	Training_Batch_Files_wafer_28012020_090817.csv: File loaded successfully!!
-2021-04-22		02:28:07	Training_Batch_Files_wafer_28042020_031911.csv: File loaded successfully!!
-2021-04-22		02:28:10	Training_Batch_Files_wafer_29012020_050617.csv: File loaded successfully!!
-2021-04-22		02:28:10	Successfully Established the DataBase Connection
-2021-04-22		02:28:10	'trainingInput.csv' file Loaded Successfully
+2021-04-21		21:11:34	Successfully Established the DataBase Connection
+2021-04-21		21:11:38	Table Created Successfully
+2021-04-21		21:11:38	Successfully Established the DataBase Connection
+2021-04-21		21:11:39	Training_Batch_Files_wafer_16012020_051629.csv: File loaded successfully!!
+2021-04-21		21:11:40	Training_Batch_Files_wafer_29012020_050617.csv: File loaded successfully!!
+2021-04-21		21:11:41	Training_Batch_Files_wafer_28012020_090817.csv: File loaded successfully!!
+2021-04-21		21:11:41	Training_Batch_Files_wafer_13012020_090817.csv: File loaded successfully!!
+2021-04-21		21:11:42	Training_Batch_Files_wafer_21012020_080913.csv: File loaded successfully!!
+2021-04-21		21:11:43	Training_Batch_Files_wafer_28042020_031911.csv: File loaded successfully!!
+2021-04-21		21:11:43	Training_Batch_Files_wafer_20022020_090716.csv: File loaded successfully!!
+2021-04-21		21:11:44	Training_Batch_Files_wafer_23012020_041211.csv: File loaded successfully!!
+2021-04-21		21:11:45	Training_Batch_Files_wafer_27012020_080911.csv: File loaded successfully!!
+2021-04-21		21:11:45	Successfully Established the DataBase Connection
+2021-04-21		21:11:45	'trainingInput.csv' file Loaded Successfully
