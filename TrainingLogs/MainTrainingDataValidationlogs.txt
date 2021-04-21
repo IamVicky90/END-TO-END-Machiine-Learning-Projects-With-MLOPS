@@ -1,0 +1,9 @@
+2021-04-21		23:37:21	Starting the TrainigValidation Part
+2021-04-21		23:37:22	Successfully complete the process of validating the csv data fomat
+2021-04-21		23:37:24	Successfully complete the process of validating the  no. of columns
+2021-04-21		23:37:27	Successfully complete the process of method validateColumnsbymissingvalues
+2021-04-21		23:37:29	Successfully complete the process of method renamedFirstColumn
+2021-04-21		23:37:46	Successfully complete the process of method convertNANvaluesToNULL
+2021-04-21		23:37:59	Successfully complete the process of method createTable
+2021-04-21		23:38:16	Successfully complete the process of method insertValuesintoTable
+2021-04-21		23:38:16	Successfully complete the process of method inputvaluesintocsv

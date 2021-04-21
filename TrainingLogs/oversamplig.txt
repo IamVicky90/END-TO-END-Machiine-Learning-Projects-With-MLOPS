@@ -1,0 +1,2 @@
+2021-04-21		23:38:29	percent of difference of data is 4.625 so we oversampling is neded in this case
+2021-04-21		23:38:31	The number of classes before fit Counter({-1: 347, 1: 13})	The number of classes after fit Counter({-1: 347, 1: 260})
