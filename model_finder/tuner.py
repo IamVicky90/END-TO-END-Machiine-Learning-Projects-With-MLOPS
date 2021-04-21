@@ -99,7 +99,7 @@ class model_finder:
             n_estimators = grid.best_params_['n_estimators']
 
             # creating a new model with the best parameters
-            xg = XGBClassifier(learning_rate=learning_rate, max_depth=max_depth, n_estimators=n_estimators)
+            xg = xgboost.XGBClassifier(learning_rate=learning_rate, max_depth=max_depth, n_estimators=n_estimators)
             # training the mew model
             self.log.log(self.file,f'\tBest params for XGBOOST are; learning_rate : {learning_rate}, max_depth : {max_depth},  n_estimators : {n_estimators}')
             return xg
