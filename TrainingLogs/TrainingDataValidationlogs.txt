@@ -1,117 +1,76 @@
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer12_20012.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_07012020_000000.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_07012020_223345.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_08012020_120000.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_10012020_131534.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_11012020_151432.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_12012020_111.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_12012020_111213.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_13012020_141000.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_14012020_113045.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_15010_130532.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_15012020_130532.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_18012020_121532.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_19012020_141432.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_20012020_135132.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_21012020_143634.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_22012020_173245.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_23012020_163456.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_24012020_150121.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_25012020_142112.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_fault_detection.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_text_130532.csv
-2021-04-21		23:37:21	File name is not according to Schema.json, filename: Training_Batch_Files_Waferdefault_15010_130532.csv
-2021-04-21		23:37:21	Succcessfully Validate the File name: Training_Batch_Files_wafer_07012020_041011.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:21	Succcessfully Validate the File name: Training_Batch_Files_wafer_13012020_090817.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:21	Succcessfully Validate the File name: Training_Batch_Files_wafer_16012020_051629.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:21	Succcessfully Validate the File name: Training_Batch_Files_wafer_16012020_134553.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:21	Succcessfully Validate the File name: Training_Batch_Files_wafer_17012020_125434.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:22	Succcessfully Validate the File name: Training_Batch_Files_wafer_20012020_090819.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:22	Succcessfully Validate the File name: Training_Batch_Files_wafer_20022020_090716.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:22	Succcessfully Validate the File name: Training_Batch_Files_wafer_21012020_080913.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:22	Succcessfully Validate the File name: Training_Batch_Files_wafer_22022020_041119.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:22	Succcessfully Validate the File name: Training_Batch_Files_wafer_23012020_011008.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:22	Succcessfully Validate the File name: Training_Batch_Files_wafer_23012020_041211.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:22	Succcessfully Validate the File name: Training_Batch_Files_wafer_27012020_080911.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:22	Succcessfully Validate the File name: Training_Batch_Files_wafer_28012020_051011.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:22	Succcessfully Validate the File name: Training_Batch_Files_wafer_28012020_090817.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:22	Succcessfully Validate the File name: Training_Batch_Files_wafer_28042020_031911.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:22	Succcessfully Validate the File name: Training_Batch_Files_wafer_29012020_050617.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:22	Succcessfully Validate the File name: Training_Batch_Files_wafer_29012020_060756.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:22	Succcessfully Validate the File name: Training_Batch_Files_wafer_31012020_090811.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:37:22	File name is not according to Schema.json, filename: a_daa_presentation_1.pptx
-2021-04-21		23:37:22	File name is not according to Schema.json, filename: a_daa_presentation_2.PNG
-2021-04-21		23:37:22	File name is not according to Schema.json, filename: a_daa_presentation_2.pptx
-2021-04-21		23:37:22	File name is not according to Schema.json, filename: a_daa_presentation_3.pptx
-2021-04-21		23:37:22	File name is not according to Schema.json, filename: a_daa_presentation_Capture.PNG
-2021-04-21		23:37:22	File name is not according to Schema.json, filename: a_daa_presentation_DAA_Presentation.pptx
-2021-04-21		23:37:22	file Training_Batch_Files_wafer_07012020_041011.csv columns is matching with our Schema
-2021-04-21		23:37:22	file Training_Batch_Files_wafer_13012020_090817.csv columns is matching with our Schema
-2021-04-21		23:37:22	file Training_Batch_Files_wafer_16012020_051629.csv columns is matching with our Schema
-2021-04-21		23:37:22	Move the file: Training_Batch_Files_wafer_16012020_134553.csv to TrainingBadRawDataFolder because columns was not matching with our Schema
-2021-04-21		23:37:23	Move the file: Training_Batch_Files_wafer_17012020_125434.csv to TrainingBadRawDataFolder because columns was not matching with our Schema
-2021-04-21		23:37:23	file Training_Batch_Files_wafer_20012020_090819.csv columns is matching with our Schema
-2021-04-21		23:37:23	file Training_Batch_Files_wafer_20022020_090716.csv columns is matching with our Schema
-2021-04-21		23:37:23	file Training_Batch_Files_wafer_21012020_080913.csv columns is matching with our Schema
-2021-04-21		23:37:23	file Training_Batch_Files_wafer_22022020_041119.csv columns is matching with our Schema
-2021-04-21		23:37:23	file Training_Batch_Files_wafer_23012020_011008.csv columns is matching with our Schema
-2021-04-21		23:37:23	file Training_Batch_Files_wafer_23012020_041211.csv columns is matching with our Schema
-2021-04-21		23:37:23	file Training_Batch_Files_wafer_27012020_080911.csv columns is matching with our Schema
-2021-04-21		23:37:23	file Training_Batch_Files_wafer_28012020_051011.csv columns is matching with our Schema
-2021-04-21		23:37:23	file Training_Batch_Files_wafer_28012020_090817.csv columns is matching with our Schema
-2021-04-21		23:37:24	file Training_Batch_Files_wafer_28042020_031911.csv columns is matching with our Schema
-2021-04-21		23:37:24	file Training_Batch_Files_wafer_29012020_050617.csv columns is matching with our Schema
-2021-04-21		23:37:24	file Training_Batch_Files_wafer_29012020_060756.csv columns is matching with our Schema
-2021-04-21		23:37:24	file Training_Batch_Files_wafer_31012020_090811.csv columns is matching with our Schema
-2021-04-21		23:37:24	Move the file: Training_Batch_Files_wafer_07012020_041011.csv to TrainingBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
-2021-04-21		23:37:25	Move the file: Training_Batch_Files_wafer_20012020_090819.csv to TrainingBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
-2021-04-21		23:37:25	Move the file: Training_Batch_Files_wafer_22022020_041119.csv to TrainingBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
-2021-04-21		23:37:25	Move the file: Training_Batch_Files_wafer_23012020_011008.csv to TrainingBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
-2021-04-21		23:37:26	Move the file: Training_Batch_Files_wafer_28012020_051011.csv to TrainingBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
-2021-04-21		23:37:27	Move the file: Training_Batch_Files_wafer_29012020_060756.csv to TrainingBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
-2021-04-21		23:37:27	Move the file: Training_Batch_Files_wafer_31012020_090811.csv to TrainingBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
-2021-04-21		23:37:29	Successfully renamed the first file Training_Batch_Files_wafer_29012020_050617.csv column from 'Unnamed: 0' to 'Wafer'
-2021-04-21		23:37:30	Successfully convert the file Training_Batch_Files_wafer_13012020_090817.csv NAN values to 'NULL' 
-2021-04-21		23:37:32	Successfully convert the file Training_Batch_Files_wafer_16012020_051629.csv NAN values to 'NULL' 
-2021-04-21		23:37:33	Successfully convert the file Training_Batch_Files_wafer_20022020_090716.csv NAN values to 'NULL' 
-2021-04-21		23:37:35	Successfully convert the file Training_Batch_Files_wafer_21012020_080913.csv NAN values to 'NULL' 
-2021-04-21		23:37:37	Successfully convert the file Training_Batch_Files_wafer_23012020_041211.csv NAN values to 'NULL' 
-2021-04-21		23:37:39	Successfully convert the file Training_Batch_Files_wafer_27012020_080911.csv NAN values to 'NULL' 
-2021-04-21		23:37:42	Successfully convert the file Training_Batch_Files_wafer_28012020_090817.csv NAN values to 'NULL' 
-2021-04-21		23:37:44	Successfully convert the file Training_Batch_Files_wafer_28042020_031911.csv NAN values to 'NULL' 
-2021-04-21		23:37:46	Successfully convert the file Training_Batch_Files_wafer_29012020_050617.csv NAN values to 'NULL' 
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer12_20012.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_07012020_000000.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_07012020_223345.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_08012020_120000.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_10012020_131534.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_11012020_151432.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_12012020_111.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_12012020_111213.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_13012020_141000.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_14012020_113045.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_15010_130532.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_15012020_130532.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_18012020_121532.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_19012020_141432.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_20012020_135132.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_21012020_143634.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_22012020_173245.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_23012020_163456.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_24012020_150121.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_25012020_142112.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_fault_detection.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_text_130532.csv
-2021-04-21		23:40:43	File name is not according to Schema.json, filename: Training_Batch_Files_Waferdefault_15010_130532.csv
-2021-04-21		23:40:43	Succcessfully Validate the File name: Training_Batch_Files_wafer_07012020_041011.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:40:43	Succcessfully Validate the File name: Training_Batch_Files_wafer_13012020_090817.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:40:43	Succcessfully Validate the File name: Training_Batch_Files_wafer_16012020_051629.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:40:43	Succcessfully Validate the File name: Training_Batch_Files_wafer_16012020_134553.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:40:43	Succcessfully Validate the File name: Training_Batch_Files_wafer_17012020_125434.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:40:43	Succcessfully Validate the File name: Training_Batch_Files_wafer_20012020_090819.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:40:43	Succcessfully Validate the File name: Training_Batch_Files_wafer_20022020_090716.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:40:43	Succcessfully Validate the File name: Training_Batch_Files_wafer_21012020_080913.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:40:43	Succcessfully Validate the File name: Training_Batch_Files_wafer_22022020_041119.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:40:43	Succcessfully Validate the File name: Training_Batch_Files_wafer_23012020_011008.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:40:43	Succcessfully Validate the File name: Training_Batch_Files_wafer_23012020_041211.csv and copy it to ,TrainingGoodRawDataFolder
-2021-04-21		23:40:43	Succcessfully Validate the File name: Training_Batch_Files_wafer_27012020_080911.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer12_20012.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_07012020_000000.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_07012020_223345.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_08012020_120000.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_10012020_131534.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_11012020_151432.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_12012020_111.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_12012020_111213.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_13012020_141000.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_14012020_113045.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_15010_130532.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_15012020_130532.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_18012020_121532.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_19012020_141432.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_20012020_135132.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_21012020_143634.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_22012020_173245.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_23012020_163456.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_24012020_150121.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_25012020_142112.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_fault_detection.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Wafer_text_130532.csv
+2021-04-22		02:27:11	File name is not according to Schema.json, filename: Training_Batch_Files_Waferdefault_15010_130532.csv
+2021-04-22		02:27:11	Succcessfully Validate the File name: Training_Batch_Files_wafer_07012020_041011.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:11	Succcessfully Validate the File name: Training_Batch_Files_wafer_13012020_090817.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:11	Succcessfully Validate the File name: Training_Batch_Files_wafer_16012020_051629.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:11	Succcessfully Validate the File name: Training_Batch_Files_wafer_16012020_134553.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:11	Succcessfully Validate the File name: Training_Batch_Files_wafer_17012020_125434.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:11	Succcessfully Validate the File name: Training_Batch_Files_wafer_20012020_090819.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:11	Succcessfully Validate the File name: Training_Batch_Files_wafer_20022020_090716.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:11	Succcessfully Validate the File name: Training_Batch_Files_wafer_21012020_080913.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:11	Succcessfully Validate the File name: Training_Batch_Files_wafer_22022020_041119.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:11	Succcessfully Validate the File name: Training_Batch_Files_wafer_23012020_011008.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:12	Succcessfully Validate the File name: Training_Batch_Files_wafer_23012020_041211.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:12	Succcessfully Validate the File name: Training_Batch_Files_wafer_27012020_080911.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:12	Succcessfully Validate the File name: Training_Batch_Files_wafer_28012020_051011.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:12	Succcessfully Validate the File name: Training_Batch_Files_wafer_28012020_090817.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:12	Succcessfully Validate the File name: Training_Batch_Files_wafer_28042020_031911.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:12	Succcessfully Validate the File name: Training_Batch_Files_wafer_29012020_050617.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:12	Succcessfully Validate the File name: Training_Batch_Files_wafer_29012020_060756.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:12	Succcessfully Validate the File name: Training_Batch_Files_wafer_31012020_090811.csv and copy it to ,TrainingGoodRawDataFolder
+2021-04-22		02:27:12	file Training_Batch_Files_wafer_07012020_041011.csv columns is matching with our Schema
+2021-04-22		02:27:12	file Training_Batch_Files_wafer_13012020_090817.csv columns is matching with our Schema
+2021-04-22		02:27:12	file Training_Batch_Files_wafer_16012020_051629.csv columns is matching with our Schema
+2021-04-22		02:27:12	Move the file: Training_Batch_Files_wafer_16012020_134553.csv to TrainingBadRawDataFolder because columns was not matching with our Schema
+2021-04-22		02:27:13	Move the file: Training_Batch_Files_wafer_17012020_125434.csv to TrainingBadRawDataFolder because columns was not matching with our Schema
+2021-04-22		02:27:13	file Training_Batch_Files_wafer_20012020_090819.csv columns is matching with our Schema
+2021-04-22		02:27:13	file Training_Batch_Files_wafer_20022020_090716.csv columns is matching with our Schema
+2021-04-22		02:27:13	file Training_Batch_Files_wafer_21012020_080913.csv columns is matching with our Schema
+2021-04-22		02:27:13	file Training_Batch_Files_wafer_22022020_041119.csv columns is matching with our Schema
+2021-04-22		02:27:13	file Training_Batch_Files_wafer_23012020_011008.csv columns is matching with our Schema
+2021-04-22		02:27:13	file Training_Batch_Files_wafer_23012020_041211.csv columns is matching with our Schema
+2021-04-22		02:27:13	file Training_Batch_Files_wafer_27012020_080911.csv columns is matching with our Schema
+2021-04-22		02:27:13	file Training_Batch_Files_wafer_28012020_051011.csv columns is matching with our Schema
+2021-04-22		02:27:13	file Training_Batch_Files_wafer_28012020_090817.csv columns is matching with our Schema
+2021-04-22		02:27:14	file Training_Batch_Files_wafer_28042020_031911.csv columns is matching with our Schema
+2021-04-22		02:27:14	file Training_Batch_Files_wafer_29012020_050617.csv columns is matching with our Schema
+2021-04-22		02:27:14	file Training_Batch_Files_wafer_29012020_060756.csv columns is matching with our Schema
+2021-04-22		02:27:14	file Training_Batch_Files_wafer_31012020_090811.csv columns is matching with our Schema
+2021-04-22		02:27:14	Move the file: Training_Batch_Files_wafer_07012020_041011.csv to TrainingBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-22		02:27:15	Move the file: Training_Batch_Files_wafer_20012020_090819.csv to TrainingBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-22		02:27:15	Move the file: Training_Batch_Files_wafer_22022020_041119.csv to TrainingBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-22		02:27:15	Move the file: Training_Batch_Files_wafer_23012020_011008.csv to TrainingBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-22		02:27:16	Move the file: Training_Batch_Files_wafer_28012020_051011.csv to TrainingBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-22		02:27:18	Move the file: Training_Batch_Files_wafer_29012020_060756.csv to TrainingBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-22		02:27:18	Move the file: Training_Batch_Files_wafer_31012020_090811.csv to TrainingBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-22		02:27:19	Successfully renamed the first file Training_Batch_Files_wafer_29012020_050617.csv column from 'Unnamed: 0' to 'Wafer'
+2021-04-22		02:27:21	Successfully convert the file Training_Batch_Files_wafer_13012020_090817.csv NAN values to 'NULL' 
+2021-04-22		02:27:23	Successfully convert the file Training_Batch_Files_wafer_16012020_051629.csv NAN values to 'NULL' 
+2021-04-22		02:27:24	Successfully convert the file Training_Batch_Files_wafer_20022020_090716.csv NAN values to 'NULL' 
+2021-04-22		02:27:26	Successfully convert the file Training_Batch_Files_wafer_21012020_080913.csv NAN values to 'NULL' 
+2021-04-22		02:27:29	Successfully convert the file Training_Batch_Files_wafer_23012020_041211.csv NAN values to 'NULL' 
+2021-04-22		02:27:31	Successfully convert the file Training_Batch_Files_wafer_27012020_080911.csv NAN values to 'NULL' 
+2021-04-22		02:27:34	Successfully convert the file Training_Batch_Files_wafer_28012020_090817.csv NAN values to 'NULL' 
+2021-04-22		02:27:36	Successfully convert the file Training_Batch_Files_wafer_28042020_031911.csv NAN values to 'NULL' 
+2021-04-22		02:27:38	Successfully convert the file Training_Batch_Files_wafer_29012020_050617.csv NAN values to 'NULL' 
