@@ -5,10 +5,10 @@ from application_loging import app_logger
 import csv
 import shutil
 class dbOperation:
-    def __init__(self):
+    def __init__(self,logFile):
         self.logger=app_logger.logger()
-        self.file=open('TrainingLogs/dbOperation.txt','a+')
-        self.exceptionfile=open('TrainingLogs/Exception.txt','a+')
+        self.file=open(f'{logFile}/dbOperation.txt','a+')
+        self.exceptionfile=open(f'{logFile}/Exception.txt','a+')
     def connectionEstablished(self,dbConnectionName):
         try:
             con = sqlite3.connect(dbConnectionName)
@@ -17,11 +17,11 @@ class dbOperation:
             self.logger.log(self.file,"\tCouldn't  Established the DataBase Connection due to error: "+str(e))
             self.logger.log(self.exceptionfile,"\tCouldn't  Established the DataBase Connection due to error: "+str(e))
         return con
-    def createTable(self,TableName,colNames):
+    def createTable(self,TableName,colNames,dbname):
 
 
         try:
-            conn=self.connectionEstablished('wafer.db')
+            conn=self.connectionEstablished(dbname)
             c=conn.cursor()
             c.execute(f"SELECT count(name)  FROM sqlite_master WHERE type = 'table'AND name = '{TableName}'")
             if c.fetchone()[0] ==1:
@@ -29,7 +29,7 @@ class dbOperation:
                 self.logger.log(self.file, "\tTables created successfully!!")
                 # self.file.close()
 
-                self.logger.log(self.file, "\tClosed wafer.db database successfully" )
+                self.logger.log(self.file, f"\tClosed {dbname} database successfully" )
                 # self.file.close()
             else:
                 for key in colNames.keys():
@@ -53,9 +53,9 @@ class dbOperation:
                 fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
                 # print(exc_type, fname, exc_tb.tb_lineno)
                 # raise e
-    def insertValuesintoTable(self,database):
-            GoodDataPath='TrainingGoodRawDataFolder'
-            conn=self.connectionEstablished('wafer.db')
+    def insertValuesintoTable(self,TableName,dbname,GoodRawDataFolderName):
+            GoodDataPath=GoodRawDataFolderName
+            conn=self.connectionEstablished(dbname)
             onlyfiles=[f for f in os.listdir(GoodDataPath)]
             for file in onlyfiles:
                 try:
@@ -65,7 +65,7 @@ class dbOperation:
                         for line in enumerate(reader):
                             for list_ in (line[1]):
                                 try:
-                                    conn.execute('INSERT INTO Good_Raw_Data values ({values})'.format(values=(list_)))
+                                    conn.execute(f'INSERT INTO {TableName} values ({list_})')
                                     conn.commit()
                                 except Exception as e:
                                     raise e
@@ -75,26 +75,26 @@ class dbOperation:
                     conn.rollback()
                     self.logger.log(self.file,"\tCouldn't  insert value into table! due to an error: "+str(e))
             conn.close()
-    def inputvaluesintocsv(self):
+    def inputvaluesintocsv(self,TableName,dbname,foldername,filename):
         '''Take the data from Data Base and insert it into a csv file'''
         try:
-            conn=self.connectionEstablished('wafer.db')
+            conn=self.connectionEstablished(dbname)
             c=conn.cursor()
-            c.execute("SELECT * FROM Good_Raw_Data")
+            c.execute(f"SELECT * FROM {TableName}")
             table = c.fetchall()
             headers=[i[0] for i in c.description]
-            dirname='TrainingFileFromDB'
+            dirname=foldername
             if os.path.isdir(dirname):
                 shutil.rmtree(dirname)
             os.mkdir(dirname)
             
-            csvFile=csv.writer(open(dirname+'/'+'trainingInput.csv','w',newline=''),delimiter=',',lineterminator='\r\n',quoting=csv.QUOTE_ALL, escapechar='\\')
+            csvFile=csv.writer(open(dirname+'/'+filename,'w',newline=''),delimiter=',',lineterminator='\r\n',quoting=csv.QUOTE_ALL, escapechar='\\')
             csvFile.writerow(headers)
             csvFile.writerows(table)
-            self.logger.log(self.file,"\t'trainingInput.csv' file Loaded Successfully")
+            self.logger.log(self.file,f"\t'{filename}' file Loaded Successfully")
             self.file.close()
         except Exception as e:
-            self.logger.log(self.exceptionfile,"\tColudn't loaded 'trainingInput.csv' error is: "+str(e))
+            self.logger.log(self.exceptionfile,f"\tColudn't loaded '{filename}' error is: "+str(e))
             self.exceptionfile.close()
             self.file.close()
             raise e

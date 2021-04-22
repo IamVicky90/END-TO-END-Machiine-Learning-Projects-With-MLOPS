@@ -42,7 +42,7 @@
                 </div>
                 <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Click here to Predict!</h2>
                 <p class="leading-relaxed text-base">This may take a while for Predicting please keep patience while doing so!</p>
-                <form method="POST" action="/train" enctype="multipart/form-data" onsubmit="showloading()">
+                <form method="POST" action="/predict" enctype="multipart/form-data" onsubmit="showloading()">
                     <input type="file" webkitdirectory directory multiple name="folder"/>
                     <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Prediction</button>
                 </form>

@@ -1,0 +1,9 @@
+2021-04-22		23:50:28	Starting the PredictionValidation Part
+2021-04-22		23:50:29	Successfully complete the process of validating the csv data fomat
+2021-04-22		23:50:31	Successfully complete the process of validating the  no. of columns
+2021-04-22		23:50:34	Successfully complete the process of method validateColumnsbymissingvalues
+2021-04-22		23:50:36	Successfully complete the process of method renamedFirstColumn
+2021-04-22		23:50:53	Successfully complete the process of method convertNANvaluesToNULL
+2021-04-22		23:51:06	Successfully complete the process of method createTable
+2021-04-22		23:51:23	Successfully complete the process of method insertValuesintoTable
+2021-04-22		23:51:23	Successfully complete the process of method inputvaluesintocsv

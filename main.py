@@ -5,17 +5,31 @@ from flask_cors import CORS,cross_origin
 import os
 from werkzeug.utils import secure_filename
 from TrainingDataValidation import TrainValidation
+from PredictionDataValidation import PredictionValidation
 from trainModel import modelTraining
 app=Flask(__name__)
 dashboard.bind(app)
 CORS(app)
-# Creating Folders if not exists
-def createNotPresentDirectories():
+# Creating Training Folders if not exists
+def createNotPresentTrainingDirectories():
     folders=os.listdir(os.getcwd())
     if 'Training_Batch_Files' not in folders:
         os.system("mkdir Training_Batch_Files")
     if 'TrainingLogs' not in folders:
         os.system("mkdir TrainingLogs")
+# Creating Prediction Folders if not exists
+def createNotPresentPredictionDirectories():
+    folders=os.listdir(os.getcwd())
+
+    if 'Prediction_Batch_Files' not in folders:
+        os.system("mkdir Prediction_Batch_Files")
+    if 'PredictionLogs' not in folders:
+        os.system("mkdir PredictionLogs")
+def delete_DataBase_Files():
+    if 'wafer.db' in os.listdir(os.getcwd()):
+        os.system('rm wafer.db')
+    if 'pred_wafer.db' in os.listdir(os.getcwd()):
+        os.system('rm pred_wafer.db')
 
 
 @app.route("/",methods=["GET"])
@@ -26,18 +40,34 @@ def home():
 @app.route("/train",methods=["POST"])
 @cross_origin()
 def train():
-    createNotPresentDirectories()
+    createNotPresentTrainingDirectories()
+    delete_DataBase_Files()
     Training_path='Training_Batch_Files'
     files=request.files.getlist("folder")
     for file in files:
-        basepath = os.path.dirname(__file__)
+        basepath = os.getcwd()
         file_path = os.path.join(
-        basepath,'Training_Batch_Files', secure_filename(file.filename))
+        basepath,Training_path, secure_filename(file.filename))
         file.save(file_path)
     Train_obj=TrainValidation(Training_path)
     Train_obj.TrainValidation()
     model_train=modelTraining()
     model_train.training_data()
+    return "Suceccesfull"
+@app.route("/predict",methods=["POST"])
+@cross_origin()
+def predict():
+    createNotPresentPredictionDirectories()
+    delete_DataBase_Files()
+    Prediction_path='Prediction_Batch_Files'
+    files=request.files.getlist("folder")
+    for file in files:
+        basepath = os.getcwd()
+        file_path = os.path.join(
+        basepath,Prediction_path, secure_filename(file.filename))
+        file.save(file_path)
+    Pred_obj=PredictionValidation(Prediction_path)
+    Pred_obj.PredictionValidation()
     
     
     return "Suceccesfull"

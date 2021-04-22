@@ -4,7 +4,7 @@ from DataBaseOperation.dboperation import dbOperation
 class TrainValidation:
     def __init__(self,path):
         self.raw_data=TrainingRawDataValidation(path)
-        self.dbOperation=dbOperation()
+        self.dbOperation=dbOperation('TrainingLogs')
         self.path=path
         self.log=app_logger.logger()
         self.file=open('TrainingLogs/MainTrainingDataValidationlogs.txt','a+')
@@ -23,13 +23,13 @@ class TrainValidation:
         self.log.log(self.file,"\tSuccessfully complete the process of method renamedFirstColumn")
         self.raw_data.convertNANvaluesToNULL()
         self.log.log(self.file,"\tSuccessfully complete the process of method convertNANvaluesToNULL")
-        # con=self.dbOperation.connectionEstablished('wafer.db')
-        # self.log.log(self.file,"\tSuccessfully complete the process of method connectionEstablished")
-        self.dbOperation.createTable('Good_Raw_Data',ColNames)
+        TableName='Good_Raw_Data'
+        dbname='wafer.db'
+        self.dbOperation.createTable(TableName,ColNames,dbname)
         self.log.log(self.file,"\tSuccessfully complete the process of method createTable")
-        self.dbOperation.insertValuesintoTable('wafer.db')
+        self.dbOperation.insertValuesintoTable(TableName,dbname,'TrainingGoodRawDataFolder')
         self.log.log(self.file,"\tSuccessfully complete the process of method insertValuesintoTable")
-        self.dbOperation.inputvaluesintocsv()
+        self.dbOperation.inputvaluesintocsv(TableName,dbname,'TrainingFileFromDB','trainingInput.csv')
         self.log.log(self.file,"\tSuccessfully complete the process of method inputvaluesintocsv")
         self.file.close()
 
