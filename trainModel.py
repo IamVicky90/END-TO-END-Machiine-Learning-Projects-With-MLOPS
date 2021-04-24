@@ -11,13 +11,13 @@ class modelTraining:
         self.log=app_logger.logger()
         self.file=open('TrainingLogs/tainModelLogs.txt','a+')
         self.model_finder_obj=model_finder()
-        self.model_obj=model()
+        self.model_obj=model('TrainingLogs/models_saving_and_loading_logs.txt','TrainingLogs/Exception.txt')
     def training_data(self):
         try:
-            obj=getdata.getdata()
-            df=obj.datagetter()
+            obj=getdata.getdata('TrainingLogs','getdata.txt')
+            df=obj.datagetter('TrainingFileFromDB/trainingInput.csv')
             self.log.log(self.file,'\tPandas Dataframe executed successfully')
-            processing=data_preprocessing.preocess_data()
+            processing=data_preprocessing.preocess_data('TrainingLogs/data_preprocessing.txt','TrainingLogs/Exception.txt')
             self.log.log(self.file,'\tSuccessfully called the process_data method from Processing')
             df=processing.remove_column(df,['Wafer'])
             self.log.log(self.file,'\tSuccessfully complete the process of remove columns')

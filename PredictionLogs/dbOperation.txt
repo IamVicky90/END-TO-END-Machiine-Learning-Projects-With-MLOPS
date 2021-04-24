@@ -1,14 +1,154 @@
-2021-04-22		23:50:53	Successfully Established the DataBase Connection
-2021-04-22		23:51:06	Table Created Successfully
-2021-04-22		23:51:06	Successfully Established the DataBase Connection
-2021-04-22		23:51:08	Prediction_Batch_files_wafer_13012020_090817.csv: File loaded successfully!!
-2021-04-22		23:51:10	Prediction_Batch_files_wafer_16012020_051629.csv: File loaded successfully!!
-2021-04-22		23:51:11	Prediction_Batch_files_wafer_20022020_090716.csv: File loaded successfully!!
-2021-04-22		23:51:13	Prediction_Batch_files_wafer_21012020_080913.csv: File loaded successfully!!
-2021-04-22		23:51:15	Prediction_Batch_files_wafer_23012020_041211.csv: File loaded successfully!!
-2021-04-22		23:51:17	Prediction_Batch_files_wafer_27012020_080911.csv: File loaded successfully!!
-2021-04-22		23:51:19	Prediction_Batch_files_wafer_28012020_090817.csv: File loaded successfully!!
-2021-04-22		23:51:21	Prediction_Batch_files_wafer_28042020_031911.csv: File loaded successfully!!
-2021-04-22		23:51:23	Prediction_Batch_files_wafer_29012020_050617.csv: File loaded successfully!!
-2021-04-22		23:51:23	Successfully Established the DataBase Connection
-2021-04-22		23:51:23	'predictionInput.csv' file Loaded Successfully
+2021-04-25		01:55:39	Successfully Established the DataBase Connection
+2021-04-25		01:55:52	Table Created Successfully
+2021-04-25		01:55:52	Successfully Established the DataBase Connection
+2021-04-25		01:55:54	Prediction_Batch_files_wafer_13012020_090817.csv: File loaded successfully!!
+2021-04-25		01:55:56	Prediction_Batch_files_wafer_16012020_051629.csv: File loaded successfully!!
+2021-04-25		01:55:57	Prediction_Batch_files_wafer_20022020_090716.csv: File loaded successfully!!
+2021-04-25		01:55:59	Prediction_Batch_files_wafer_21012020_080913.csv: File loaded successfully!!
+2021-04-25		01:56:01	Prediction_Batch_files_wafer_23012020_041211.csv: File loaded successfully!!
+2021-04-25		01:56:03	Prediction_Batch_files_wafer_27012020_080911.csv: File loaded successfully!!
+2021-04-25		01:56:05	Prediction_Batch_files_wafer_28012020_090817.csv: File loaded successfully!!
+2021-04-25		01:56:07	Prediction_Batch_files_wafer_28042020_031911.csv: File loaded successfully!!
+2021-04-25		01:56:09	Prediction_Batch_files_wafer_29012020_050617.csv: File loaded successfully!!
+2021-04-25		01:56:09	Successfully Established the DataBase Connection
+2021-04-25		01:56:09	'predictionInput.csv' file Loaded Successfully
+2021-04-25		01:59:49	Successfully Established the DataBase Connection
+2021-04-25		02:00:01	Table Created Successfully
+2021-04-25		02:00:01	Successfully Established the DataBase Connection
+2021-04-25		02:00:03	Prediction_Batch_files_wafer_13012020_090817.csv: File loaded successfully!!
+2021-04-25		02:00:05	Prediction_Batch_files_wafer_16012020_051629.csv: File loaded successfully!!
+2021-04-25		02:00:06	Prediction_Batch_files_wafer_20022020_090716.csv: File loaded successfully!!
+2021-04-25		02:00:08	Prediction_Batch_files_wafer_21012020_080913.csv: File loaded successfully!!
+2021-04-25		02:00:10	Prediction_Batch_files_wafer_23012020_041211.csv: File loaded successfully!!
+2021-04-25		02:00:12	Prediction_Batch_files_wafer_27012020_080911.csv: File loaded successfully!!
+2021-04-25		02:00:14	Prediction_Batch_files_wafer_28012020_090817.csv: File loaded successfully!!
+2021-04-25		02:00:16	Prediction_Batch_files_wafer_28042020_031911.csv: File loaded successfully!!
+2021-04-25		02:00:18	Prediction_Batch_files_wafer_29012020_050617.csv: File loaded successfully!!
+2021-04-25		02:00:18	Successfully Established the DataBase Connection
+2021-04-25		02:00:18	'predictionInput.csv' file Loaded Successfully
+2021-04-25		02:02:48	Successfully Established the DataBase Connection
+2021-04-25		02:03:00	Table Created Successfully
+2021-04-25		02:03:00	Successfully Established the DataBase Connection
+2021-04-25		02:03:02	Prediction_Batch_files_wafer_13012020_090817.csv: File loaded successfully!!
+2021-04-25		02:03:04	Prediction_Batch_files_wafer_16012020_051629.csv: File loaded successfully!!
+2021-04-25		02:03:04	Prediction_Batch_files_wafer_20022020_090716.csv: File loaded successfully!!
+2021-04-25		02:03:06	Prediction_Batch_files_wafer_21012020_080913.csv: File loaded successfully!!
+2021-04-25		02:03:08	Prediction_Batch_files_wafer_23012020_041211.csv: File loaded successfully!!
+2021-04-25		02:03:11	Prediction_Batch_files_wafer_27012020_080911.csv: File loaded successfully!!
+2021-04-25		02:03:13	Prediction_Batch_files_wafer_28012020_090817.csv: File loaded successfully!!
+2021-04-25		02:03:15	Prediction_Batch_files_wafer_28042020_031911.csv: File loaded successfully!!
+2021-04-25		02:03:17	Prediction_Batch_files_wafer_29012020_050617.csv: File loaded successfully!!
+2021-04-25		02:03:17	Successfully Established the DataBase Connection
+2021-04-25		02:03:17	'predictionInput.csv' file Loaded Successfully
+2021-04-25		02:03:41	Successfully Established the DataBase Connection
+2021-04-25		02:03:53	Table Created Successfully
+2021-04-25		02:03:53	Successfully Established the DataBase Connection
+2021-04-25		02:03:55	Prediction_Batch_files_wafer_13012020_090817.csv: File loaded successfully!!
+2021-04-25		02:03:57	Prediction_Batch_files_wafer_16012020_051629.csv: File loaded successfully!!
+2021-04-25		02:03:58	Prediction_Batch_files_wafer_20022020_090716.csv: File loaded successfully!!
+2021-04-25		02:04:00	Prediction_Batch_files_wafer_21012020_080913.csv: File loaded successfully!!
+2021-04-25		02:04:02	Prediction_Batch_files_wafer_23012020_041211.csv: File loaded successfully!!
+2021-04-25		02:04:04	Prediction_Batch_files_wafer_27012020_080911.csv: File loaded successfully!!
+2021-04-25		02:04:06	Prediction_Batch_files_wafer_28012020_090817.csv: File loaded successfully!!
+2021-04-25		02:04:08	Prediction_Batch_files_wafer_28042020_031911.csv: File loaded successfully!!
+2021-04-25		02:04:10	Prediction_Batch_files_wafer_29012020_050617.csv: File loaded successfully!!
+2021-04-25		02:04:10	Successfully Established the DataBase Connection
+2021-04-25		02:04:10	'predictionInput.csv' file Loaded Successfully
+2021-04-25		04:02:37	Successfully Established the DataBase Connection
+2021-04-25		04:02:49	Table Created Successfully
+2021-04-25		04:02:49	Successfully Established the DataBase Connection
+2021-04-25		04:02:51	Prediction_Batch_files_wafer_13012020_090817.csv: File loaded successfully!!
+2021-04-25		04:02:53	Prediction_Batch_files_wafer_16012020_051629.csv: File loaded successfully!!
+2021-04-25		04:02:53	Prediction_Batch_files_wafer_20022020_090716.csv: File loaded successfully!!
+2021-04-25		04:02:55	Prediction_Batch_files_wafer_21012020_080913.csv: File loaded successfully!!
+2021-04-25		04:02:57	Prediction_Batch_files_wafer_23012020_041211.csv: File loaded successfully!!
+2021-04-25		04:02:59	Prediction_Batch_files_wafer_27012020_080911.csv: File loaded successfully!!
+2021-04-25		04:03:02	Prediction_Batch_files_wafer_28012020_090817.csv: File loaded successfully!!
+2021-04-25		04:03:03	Prediction_Batch_files_wafer_28042020_031911.csv: File loaded successfully!!
+2021-04-25		04:03:05	Prediction_Batch_files_wafer_29012020_050617.csv: File loaded successfully!!
+2021-04-25		04:03:05	Successfully Established the DataBase Connection
+2021-04-25		04:03:06	'predictionInput.csv' file Loaded Successfully
+2021-04-25		04:03:32	Successfully Established the DataBase Connection
+2021-04-25		04:03:44	Table Created Successfully
+2021-04-25		04:03:44	Successfully Established the DataBase Connection
+2021-04-25		04:03:46	Prediction_Batch_files_wafer_13012020_090817.csv: File loaded successfully!!
+2021-04-25		04:03:48	Prediction_Batch_files_wafer_16012020_051629.csv: File loaded successfully!!
+2021-04-25		04:03:49	Prediction_Batch_files_wafer_20022020_090716.csv: File loaded successfully!!
+2021-04-25		04:03:51	Prediction_Batch_files_wafer_21012020_080913.csv: File loaded successfully!!
+2021-04-25		04:03:53	Prediction_Batch_files_wafer_23012020_041211.csv: File loaded successfully!!
+2021-04-25		04:03:56	Prediction_Batch_files_wafer_27012020_080911.csv: File loaded successfully!!
+2021-04-25		04:03:58	Prediction_Batch_files_wafer_28012020_090817.csv: File loaded successfully!!
+2021-04-25		04:04:00	Prediction_Batch_files_wafer_28042020_031911.csv: File loaded successfully!!
+2021-04-25		04:04:02	Prediction_Batch_files_wafer_29012020_050617.csv: File loaded successfully!!
+2021-04-25		04:04:02	Successfully Established the DataBase Connection
+2021-04-25		04:04:02	'predictionInput.csv' file Loaded Successfully
+2021-04-25		04:06:38	Successfully Established the DataBase Connection
+2021-04-25		04:06:49	Table Created Successfully
+2021-04-25		04:06:50	Successfully Established the DataBase Connection
+2021-04-25		04:06:52	Prediction_Batch_files_wafer_13012020_090817.csv: File loaded successfully!!
+2021-04-25		04:06:54	Prediction_Batch_files_wafer_16012020_051629.csv: File loaded successfully!!
+2021-04-25		04:06:54	Prediction_Batch_files_wafer_20022020_090716.csv: File loaded successfully!!
+2021-04-25		04:06:56	Prediction_Batch_files_wafer_21012020_080913.csv: File loaded successfully!!
+2021-04-25		04:06:58	Prediction_Batch_files_wafer_23012020_041211.csv: File loaded successfully!!
+2021-04-25		04:07:01	Prediction_Batch_files_wafer_27012020_080911.csv: File loaded successfully!!
+2021-04-25		04:07:03	Prediction_Batch_files_wafer_28012020_090817.csv: File loaded successfully!!
+2021-04-25		04:07:05	Prediction_Batch_files_wafer_28042020_031911.csv: File loaded successfully!!
+2021-04-25		04:07:07	Prediction_Batch_files_wafer_29012020_050617.csv: File loaded successfully!!
+2021-04-25		04:07:07	Successfully Established the DataBase Connection
+2021-04-25		04:07:07	'predictionInput.csv' file Loaded Successfully
+2021-04-25		04:12:01	Successfully Established the DataBase Connection
+2021-04-25		04:12:13	Table Created Successfully
+2021-04-25		04:12:13	Successfully Established the DataBase Connection
+2021-04-25		04:12:15	Prediction_Batch_files_wafer_13012020_090817.csv: File loaded successfully!!
+2021-04-25		04:12:17	Prediction_Batch_files_wafer_16012020_051629.csv: File loaded successfully!!
+2021-04-25		04:12:17	Prediction_Batch_files_wafer_20022020_090716.csv: File loaded successfully!!
+2021-04-25		04:12:19	Prediction_Batch_files_wafer_21012020_080913.csv: File loaded successfully!!
+2021-04-25		04:12:21	Prediction_Batch_files_wafer_23012020_041211.csv: File loaded successfully!!
+2021-04-25		04:12:23	Prediction_Batch_files_wafer_27012020_080911.csv: File loaded successfully!!
+2021-04-25		04:12:25	Prediction_Batch_files_wafer_28012020_090817.csv: File loaded successfully!!
+2021-04-25		04:12:28	Prediction_Batch_files_wafer_28042020_031911.csv: File loaded successfully!!
+2021-04-25		04:12:30	Prediction_Batch_files_wafer_29012020_050617.csv: File loaded successfully!!
+2021-04-25		04:12:30	Successfully Established the DataBase Connection
+2021-04-25		04:12:30	'predictionInput.csv' file Loaded Successfully
+2021-04-25		04:17:40	Successfully Established the DataBase Connection
+2021-04-25		04:17:53	Table Created Successfully
+2021-04-25		04:17:53	Successfully Established the DataBase Connection
+2021-04-25		04:17:55	Prediction_Batch_files_wafer_13012020_090817.csv: File loaded successfully!!
+2021-04-25		04:17:57	Prediction_Batch_files_wafer_16012020_051629.csv: File loaded successfully!!
+2021-04-25		04:17:58	Prediction_Batch_files_wafer_20022020_090716.csv: File loaded successfully!!
+2021-04-25		04:18:00	Prediction_Batch_files_wafer_21012020_080913.csv: File loaded successfully!!
+2021-04-25		04:18:02	Prediction_Batch_files_wafer_23012020_041211.csv: File loaded successfully!!
+2021-04-25		04:18:04	Prediction_Batch_files_wafer_27012020_080911.csv: File loaded successfully!!
+2021-04-25		04:18:06	Prediction_Batch_files_wafer_28012020_090817.csv: File loaded successfully!!
+2021-04-25		04:18:08	Prediction_Batch_files_wafer_28042020_031911.csv: File loaded successfully!!
+2021-04-25		04:18:11	Prediction_Batch_files_wafer_29012020_050617.csv: File loaded successfully!!
+2021-04-25		04:18:11	Successfully Established the DataBase Connection
+2021-04-25		04:18:11	'predictionInput.csv' file Loaded Successfully
+2021-04-25		04:20:52	Successfully Established the DataBase Connection
+2021-04-25		04:21:05	Table Created Successfully
+2021-04-25		04:21:05	Successfully Established the DataBase Connection
+2021-04-25		04:21:07	Prediction_Batch_files_wafer_13012020_090817.csv: File loaded successfully!!
+2021-04-25		04:21:09	Prediction_Batch_files_wafer_16012020_051629.csv: File loaded successfully!!
+2021-04-25		04:21:10	Prediction_Batch_files_wafer_20022020_090716.csv: File loaded successfully!!
+2021-04-25		04:21:12	Prediction_Batch_files_wafer_21012020_080913.csv: File loaded successfully!!
+2021-04-25		04:21:14	Prediction_Batch_files_wafer_23012020_041211.csv: File loaded successfully!!
+2021-04-25		04:21:17	Prediction_Batch_files_wafer_27012020_080911.csv: File loaded successfully!!
+2021-04-25		04:21:19	Prediction_Batch_files_wafer_28012020_090817.csv: File loaded successfully!!
+2021-04-25		04:21:21	Prediction_Batch_files_wafer_28042020_031911.csv: File loaded successfully!!
+2021-04-25		04:21:23	Prediction_Batch_files_wafer_29012020_050617.csv: File loaded successfully!!
+2021-04-25		04:21:23	Successfully Established the DataBase Connection
+2021-04-25		04:21:24	'predictionInput.csv' file Loaded Successfully
+2021-04-25		04:23:15	Successfully Established the DataBase Connection
+2021-04-25		04:23:28	Table Created Successfully
+2021-04-25		04:23:28	Successfully Established the DataBase Connection
+2021-04-25		04:23:30	Prediction_Batch_files_wafer_13012020_090817.csv: File loaded successfully!!
+2021-04-25		04:23:32	Prediction_Batch_files_wafer_16012020_051629.csv: File loaded successfully!!
+2021-04-25		04:23:33	Prediction_Batch_files_wafer_20022020_090716.csv: File loaded successfully!!
+2021-04-25		04:23:35	Prediction_Batch_files_wafer_21012020_080913.csv: File loaded successfully!!
+2021-04-25		04:23:37	Prediction_Batch_files_wafer_23012020_041211.csv: File loaded successfully!!
+2021-04-25		04:23:39	Prediction_Batch_files_wafer_27012020_080911.csv: File loaded successfully!!
+2021-04-25		04:23:41	Prediction_Batch_files_wafer_28012020_090817.csv: File loaded successfully!!
+2021-04-25		04:23:43	Prediction_Batch_files_wafer_28042020_031911.csv: File loaded successfully!!
+2021-04-25		04:23:45	Prediction_Batch_files_wafer_29012020_050617.csv: File loaded successfully!!
+2021-04-25		04:23:45	Successfully Established the DataBase Connection
+2021-04-25		04:23:46	'predictionInput.csv' file Loaded Successfully

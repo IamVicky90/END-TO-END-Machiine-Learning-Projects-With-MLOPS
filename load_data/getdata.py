@@ -1,13 +1,13 @@
 from application_loging import app_logger
 import pandas as pd
 class getdata:
-    def __init__(self):
+    def __init__(self,logFolder,loggerFilename):
         self.log=app_logger.logger()
-        self.file=open('TrainingLogs/getdata.txt','a+')
-        self.exception_file=open('TrainingLogs/Exception.txt','a+')
-    def datagetter(self):
+        self.file=open(f'{logFolder}/{loggerFilename}','a+')
+        self.exception_file=open(f'{logFolder}/Exception.txt','a+')
+    def datagetter(self,filepath):
         try:
-            df=pd.read_csv('TrainingFileFromDB/trainingInput.csv')
+            df=pd.read_csv(filepath)
             self.log.log(self.file,'\tSucessfully converted data into pandas dataframe')
             self.file.close()
             self.exception_file.close()

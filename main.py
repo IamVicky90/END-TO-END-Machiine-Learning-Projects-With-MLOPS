@@ -7,6 +7,7 @@ from werkzeug.utils import secure_filename
 from TrainingDataValidation import TrainValidation
 from PredictionDataValidation import PredictionValidation
 from trainModel import modelTraining
+from PredictionProcess import modelPridiction
 app=Flask(__name__)
 dashboard.bind(app)
 CORS(app)
@@ -25,6 +26,9 @@ def createNotPresentPredictionDirectories():
         os.system("mkdir Prediction_Batch_Files")
     if 'PredictionLogs' not in folders:
         os.system("mkdir PredictionLogs")
+    if 'Prediction_Output_File' not in folders:
+        os.system("mkdir Prediction_Output_File")
+
 def delete_DataBase_Files():
     if 'wafer.db' in os.listdir(os.getcwd()):
         os.system('rm wafer.db')
@@ -40,44 +44,48 @@ def home():
 @app.route("/train",methods=["POST"])
 @cross_origin()
 def train():
-    createNotPresentTrainingDirectories()
-    delete_DataBase_Files()
-    Training_path='Training_Batch_Files'
-    files=request.files.getlist("folder")
-    for file in files:
-        basepath = os.getcwd()
-        file_path = os.path.join(
-        basepath,Training_path, secure_filename(file.filename))
-        file.save(file_path)
-    Train_obj=TrainValidation(Training_path)
-    Train_obj.TrainValidation()
-    model_train=modelTraining()
-    model_train.training_data()
-    return "Suceccesfull"
+    try:
+        createNotPresentTrainingDirectories()
+        delete_DataBase_Files()
+        Training_path='Training_Batch_Files'
+        files=request.files.getlist("folder")
+        for file in files:
+            basepath = os.getcwd()
+            file_path = os.path.join(
+            basepath,Training_path, secure_filename(file.filename))
+            file.save(file_path)
+        Train_obj=TrainValidation(Training_path)
+        Train_obj.TrainValidation()
+        model_train=modelTraining()
+        model_train.training_data()
+        return "Suceccesfull trained Your Model"
+    except Exception as e:
+        return "Something went wrong, error: e"
+
 @app.route("/predict",methods=["POST"])
 @cross_origin()
 def predict():
-    createNotPresentPredictionDirectories()
-    delete_DataBase_Files()
-    Prediction_path='Prediction_Batch_Files'
-    files=request.files.getlist("folder")
-    for file in files:
-        basepath = os.getcwd()
-        file_path = os.path.join(
-        basepath,Prediction_path, secure_filename(file.filename))
-        file.save(file_path)
-    Pred_obj=PredictionValidation(Prediction_path)
-    Pred_obj.PredictionValidation()
-    
-    
-    return "Suceccesfull"
-
+    try:
+        createNotPresentPredictionDirectories()
+        delete_DataBase_Files()
+        Prediction_path='Prediction_Batch_Files'
+        files=request.files.getlist("folder")
+        for file in files:
+            basepath = os.getcwd()
+            file_path = os.path.join(
+            basepath,Prediction_path, secure_filename(file.filename))
+            file.save(file_path)
+        Pred_obj=PredictionValidation(Prediction_path)
+        Pred_obj.PredictionValidation()
+        model_Prediction_obj=modelPridiction.predictModel()
+        result=model_Prediction_obj.processdata()
+        return "<strong>Prediction File is located at Path: Prediction_Output_File/Predictions.csv</strong><br>"+"<b>Predictions are</b><br><br>"+result.to_json(orient="records")
+    except Exception as e:
+        return f"<strong>Something went wrong error: {e}<strong>"
 
 
 port = int(os.getenv("PORT",5000))
 if __name__ == "__main__":
     host = '0.0.0.0'
-    #port = 5000
     httpd = simple_server.make_server(host, port, app)
-    # print("Serving on %s %d" % (host, port))
     httpd.serve_forever()

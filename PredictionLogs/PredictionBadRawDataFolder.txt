@@ -1,1 +1,11 @@
-2021-04-22		23:50:28	Succcessfully created the PredictionBadRawDataFolder directory
+2021-04-25		01:55:17	Succcessfully created the PredictionBadRawDataFolder directory
+2021-04-25		01:59:27	Succcessfully created the PredictionBadRawDataFolder directory
+2021-04-25		02:02:25	Succcessfully created the PredictionBadRawDataFolder directory
+2021-04-25		02:03:22	Succcessfully created the PredictionBadRawDataFolder directory
+2021-04-25		04:02:15	Succcessfully created the PredictionBadRawDataFolder directory
+2021-04-25		04:03:11	Succcessfully created the PredictionBadRawDataFolder directory
+2021-04-25		04:06:15	Succcessfully created the PredictionBadRawDataFolder directory
+2021-04-25		04:11:39	Succcessfully created the PredictionBadRawDataFolder directory
+2021-04-25		04:17:15	Succcessfully created the PredictionBadRawDataFolder directory
+2021-04-25		04:20:25	Succcessfully created the PredictionBadRawDataFolder directory
+2021-04-25		04:22:49	Succcessfully created the PredictionBadRawDataFolder directory

@@ -1,51 +1,561 @@
-2021-04-22		23:50:28	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_13012020_141000.csv
-2021-04-22		23:50:28	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_14012020_113045.csv
-2021-04-22		23:50:28	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_15010_130532.csv
-2021-04-22		23:50:28	Succcessfully Validate the File name: Prediction_Batch_files_wafer_07012020_041011.csv and copy it to ,PredictionGoodRawDataFolder
-2021-04-22		23:50:28	Succcessfully Validate the File name: Prediction_Batch_files_wafer_13012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
-2021-04-22		23:50:28	Succcessfully Validate the File name: Prediction_Batch_files_wafer_16012020_051629.csv and copy it to ,PredictionGoodRawDataFolder
-2021-04-22		23:50:28	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20012020_090819.csv and copy it to ,PredictionGoodRawDataFolder
-2021-04-22		23:50:28	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20022020_090716.csv and copy it to ,PredictionGoodRawDataFolder
-2021-04-22		23:50:29	Succcessfully Validate the File name: Prediction_Batch_files_wafer_21012020_080913.csv and copy it to ,PredictionGoodRawDataFolder
-2021-04-22		23:50:29	Succcessfully Validate the File name: Prediction_Batch_files_wafer_22022020_041119.csv and copy it to ,PredictionGoodRawDataFolder
-2021-04-22		23:50:29	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_011008.csv and copy it to ,PredictionGoodRawDataFolder
-2021-04-22		23:50:29	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_041211.csv and copy it to ,PredictionGoodRawDataFolder
-2021-04-22		23:50:29	Succcessfully Validate the File name: Prediction_Batch_files_wafer_27012020_080911.csv and copy it to ,PredictionGoodRawDataFolder
-2021-04-22		23:50:29	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_051011.csv and copy it to ,PredictionGoodRawDataFolder
-2021-04-22		23:50:29	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
-2021-04-22		23:50:29	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28042020_031911.csv and copy it to ,PredictionGoodRawDataFolder
-2021-04-22		23:50:29	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_050617.csv and copy it to ,PredictionGoodRawDataFolder
-2021-04-22		23:50:29	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_060756.csv and copy it to ,PredictionGoodRawDataFolder
-2021-04-22		23:50:29	Succcessfully Validate the File name: Prediction_Batch_files_wafer_31012020_090811.csv and copy it to ,PredictionGoodRawDataFolder
-2021-04-22		23:50:29	file Prediction_Batch_files_wafer_07012020_041011.csv columns is matching with our Schema
-2021-04-22		23:50:29	file Prediction_Batch_files_wafer_13012020_090817.csv columns is matching with our Schema
-2021-04-22		23:50:29	file Prediction_Batch_files_wafer_16012020_051629.csv columns is matching with our Schema
-2021-04-22		23:50:29	file Prediction_Batch_files_wafer_20012020_090819.csv columns is matching with our Schema
-2021-04-22		23:50:29	file Prediction_Batch_files_wafer_20022020_090716.csv columns is matching with our Schema
-2021-04-22		23:50:30	file Prediction_Batch_files_wafer_21012020_080913.csv columns is matching with our Schema
-2021-04-22		23:50:30	file Prediction_Batch_files_wafer_22022020_041119.csv columns is matching with our Schema
-2021-04-22		23:50:30	file Prediction_Batch_files_wafer_23012020_011008.csv columns is matching with our Schema
-2021-04-22		23:50:30	file Prediction_Batch_files_wafer_23012020_041211.csv columns is matching with our Schema
-2021-04-22		23:50:30	file Prediction_Batch_files_wafer_27012020_080911.csv columns is matching with our Schema
-2021-04-22		23:50:30	file Prediction_Batch_files_wafer_28012020_051011.csv columns is matching with our Schema
-2021-04-22		23:50:30	file Prediction_Batch_files_wafer_28012020_090817.csv columns is matching with our Schema
-2021-04-22		23:50:31	file Prediction_Batch_files_wafer_28042020_031911.csv columns is matching with our Schema
-2021-04-22		23:50:31	file Prediction_Batch_files_wafer_29012020_050617.csv columns is matching with our Schema
-2021-04-22		23:50:31	file Prediction_Batch_files_wafer_29012020_060756.csv columns is matching with our Schema
-2021-04-22		23:50:31	file Prediction_Batch_files_wafer_31012020_090811.csv columns is matching with our Schema
-2021-04-22		23:50:31	Move the file: Prediction_Batch_files_wafer_07012020_041011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
-2021-04-22		23:50:32	Move the file: Prediction_Batch_files_wafer_20012020_090819.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
-2021-04-22		23:50:32	Move the file: Prediction_Batch_files_wafer_22022020_041119.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
-2021-04-22		23:50:32	Move the file: Prediction_Batch_files_wafer_23012020_011008.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
-2021-04-22		23:50:33	Move the file: Prediction_Batch_files_wafer_28012020_051011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
-2021-04-22		23:50:34	Move the file: Prediction_Batch_files_wafer_29012020_060756.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
-2021-04-22		23:50:34	Move the file: Prediction_Batch_files_wafer_31012020_090811.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
-2021-04-22		23:50:38	Successfully convert the file Prediction_Batch_files_wafer_13012020_090817.csv NAN values to 'NULL' 
-2021-04-22		23:50:40	Successfully convert the file Prediction_Batch_files_wafer_16012020_051629.csv NAN values to 'NULL' 
-2021-04-22		23:50:40	Successfully convert the file Prediction_Batch_files_wafer_20022020_090716.csv NAN values to 'NULL' 
-2021-04-22		23:50:42	Successfully convert the file Prediction_Batch_files_wafer_21012020_080913.csv NAN values to 'NULL' 
-2021-04-22		23:50:45	Successfully convert the file Prediction_Batch_files_wafer_23012020_041211.csv NAN values to 'NULL' 
-2021-04-22		23:50:47	Successfully convert the file Prediction_Batch_files_wafer_27012020_080911.csv NAN values to 'NULL' 
-2021-04-22		23:50:49	Successfully convert the file Prediction_Batch_files_wafer_28012020_090817.csv NAN values to 'NULL' 
-2021-04-22		23:50:52	Successfully convert the file Prediction_Batch_files_wafer_28042020_031911.csv NAN values to 'NULL' 
-2021-04-22		23:50:53	Successfully convert the file Prediction_Batch_files_wafer_29012020_050617.csv NAN values to 'NULL' 
+2021-04-25		01:55:17	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_13012020_141000.csv
+2021-04-25		01:55:17	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_14012020_113045.csv
+2021-04-25		01:55:17	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_15010_130532.csv
+2021-04-25		01:55:17	Succcessfully Validate the File name: Prediction_Batch_files_wafer_07012020_041011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:55:17	Succcessfully Validate the File name: Prediction_Batch_files_wafer_13012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:55:17	Succcessfully Validate the File name: Prediction_Batch_files_wafer_16012020_051629.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:55:17	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20012020_090819.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:55:17	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20022020_090716.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:55:17	Succcessfully Validate the File name: Prediction_Batch_files_wafer_21012020_080913.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:55:17	Succcessfully Validate the File name: Prediction_Batch_files_wafer_22022020_041119.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:55:17	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_011008.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:55:17	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_041211.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:55:17	Succcessfully Validate the File name: Prediction_Batch_files_wafer_27012020_080911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:55:18	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_051011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:55:18	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:55:18	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28042020_031911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:55:18	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_050617.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:55:18	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_060756.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:55:18	Succcessfully Validate the File name: Prediction_Batch_files_wafer_31012020_090811.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:55:18	file Prediction_Batch_files_wafer_07012020_041011.csv columns is matching with our Schema
+2021-04-25		01:55:18	file Prediction_Batch_files_wafer_13012020_090817.csv columns is matching with our Schema
+2021-04-25		01:55:19	file Prediction_Batch_files_wafer_16012020_051629.csv columns is matching with our Schema
+2021-04-25		01:55:19	file Prediction_Batch_files_wafer_20012020_090819.csv columns is matching with our Schema
+2021-04-25		01:55:19	file Prediction_Batch_files_wafer_20022020_090716.csv columns is matching with our Schema
+2021-04-25		01:55:19	file Prediction_Batch_files_wafer_21012020_080913.csv columns is matching with our Schema
+2021-04-25		01:55:19	file Prediction_Batch_files_wafer_22022020_041119.csv columns is matching with our Schema
+2021-04-25		01:55:20	file Prediction_Batch_files_wafer_23012020_011008.csv columns is matching with our Schema
+2021-04-25		01:55:20	file Prediction_Batch_files_wafer_23012020_041211.csv columns is matching with our Schema
+2021-04-25		01:55:20	file Prediction_Batch_files_wafer_27012020_080911.csv columns is matching with our Schema
+2021-04-25		01:55:20	file Prediction_Batch_files_wafer_28012020_051011.csv columns is matching with our Schema
+2021-04-25		01:55:20	file Prediction_Batch_files_wafer_28012020_090817.csv columns is matching with our Schema
+2021-04-25		01:55:20	file Prediction_Batch_files_wafer_28042020_031911.csv columns is matching with our Schema
+2021-04-25		01:55:20	file Prediction_Batch_files_wafer_29012020_050617.csv columns is matching with our Schema
+2021-04-25		01:55:20	file Prediction_Batch_files_wafer_29012020_060756.csv columns is matching with our Schema
+2021-04-25		01:55:21	file Prediction_Batch_files_wafer_31012020_090811.csv columns is matching with our Schema
+2021-04-25		01:55:21	Move the file: Prediction_Batch_files_wafer_07012020_041011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		01:55:21	Move the file: Prediction_Batch_files_wafer_20012020_090819.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		01:55:22	Move the file: Prediction_Batch_files_wafer_22022020_041119.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		01:55:22	Move the file: Prediction_Batch_files_wafer_23012020_011008.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		01:55:23	Move the file: Prediction_Batch_files_wafer_28012020_051011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		01:55:23	Move the file: Prediction_Batch_files_wafer_29012020_060756.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		01:55:24	Move the file: Prediction_Batch_files_wafer_31012020_090811.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		01:55:27	Successfully convert the file Prediction_Batch_files_wafer_13012020_090817.csv NAN values to 'NULL' 
+2021-04-25		01:55:28	Successfully convert the file Prediction_Batch_files_wafer_16012020_051629.csv NAN values to 'NULL' 
+2021-04-25		01:55:29	Successfully convert the file Prediction_Batch_files_wafer_20022020_090716.csv NAN values to 'NULL' 
+2021-04-25		01:55:31	Successfully convert the file Prediction_Batch_files_wafer_21012020_080913.csv NAN values to 'NULL' 
+2021-04-25		01:55:33	Successfully convert the file Prediction_Batch_files_wafer_23012020_041211.csv NAN values to 'NULL' 
+2021-04-25		01:55:34	Successfully convert the file Prediction_Batch_files_wafer_27012020_080911.csv NAN values to 'NULL' 
+2021-04-25		01:55:36	Successfully convert the file Prediction_Batch_files_wafer_28012020_090817.csv NAN values to 'NULL' 
+2021-04-25		01:55:38	Successfully convert the file Prediction_Batch_files_wafer_28042020_031911.csv NAN values to 'NULL' 
+2021-04-25		01:55:39	Successfully convert the file Prediction_Batch_files_wafer_29012020_050617.csv NAN values to 'NULL' 
+2021-04-25		01:59:27	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_13012020_141000.csv
+2021-04-25		01:59:27	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_14012020_113045.csv
+2021-04-25		01:59:27	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_15010_130532.csv
+2021-04-25		01:59:27	Succcessfully Validate the File name: Prediction_Batch_files_wafer_07012020_041011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:59:27	Succcessfully Validate the File name: Prediction_Batch_files_wafer_13012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:59:27	Succcessfully Validate the File name: Prediction_Batch_files_wafer_16012020_051629.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:59:27	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20012020_090819.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:59:27	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20022020_090716.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:59:27	Succcessfully Validate the File name: Prediction_Batch_files_wafer_21012020_080913.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:59:27	Succcessfully Validate the File name: Prediction_Batch_files_wafer_22022020_041119.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:59:27	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_011008.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:59:28	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_041211.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:59:28	Succcessfully Validate the File name: Prediction_Batch_files_wafer_27012020_080911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:59:28	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_051011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:59:28	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:59:28	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28042020_031911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:59:28	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_050617.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:59:28	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_060756.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:59:28	Succcessfully Validate the File name: Prediction_Batch_files_wafer_31012020_090811.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		01:59:28	file Prediction_Batch_files_wafer_07012020_041011.csv columns is matching with our Schema
+2021-04-25		01:59:28	file Prediction_Batch_files_wafer_13012020_090817.csv columns is matching with our Schema
+2021-04-25		01:59:28	file Prediction_Batch_files_wafer_16012020_051629.csv columns is matching with our Schema
+2021-04-25		01:59:29	file Prediction_Batch_files_wafer_20012020_090819.csv columns is matching with our Schema
+2021-04-25		01:59:29	file Prediction_Batch_files_wafer_20022020_090716.csv columns is matching with our Schema
+2021-04-25		01:59:29	file Prediction_Batch_files_wafer_21012020_080913.csv columns is matching with our Schema
+2021-04-25		01:59:29	file Prediction_Batch_files_wafer_22022020_041119.csv columns is matching with our Schema
+2021-04-25		01:59:29	file Prediction_Batch_files_wafer_23012020_011008.csv columns is matching with our Schema
+2021-04-25		01:59:29	file Prediction_Batch_files_wafer_23012020_041211.csv columns is matching with our Schema
+2021-04-25		01:59:29	file Prediction_Batch_files_wafer_27012020_080911.csv columns is matching with our Schema
+2021-04-25		01:59:29	file Prediction_Batch_files_wafer_28012020_051011.csv columns is matching with our Schema
+2021-04-25		01:59:30	file Prediction_Batch_files_wafer_28012020_090817.csv columns is matching with our Schema
+2021-04-25		01:59:30	file Prediction_Batch_files_wafer_28042020_031911.csv columns is matching with our Schema
+2021-04-25		01:59:30	file Prediction_Batch_files_wafer_29012020_050617.csv columns is matching with our Schema
+2021-04-25		01:59:30	file Prediction_Batch_files_wafer_29012020_060756.csv columns is matching with our Schema
+2021-04-25		01:59:30	file Prediction_Batch_files_wafer_31012020_090811.csv columns is matching with our Schema
+2021-04-25		01:59:30	Move the file: Prediction_Batch_files_wafer_07012020_041011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		01:59:31	Move the file: Prediction_Batch_files_wafer_20012020_090819.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		01:59:32	Move the file: Prediction_Batch_files_wafer_22022020_041119.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		01:59:32	Move the file: Prediction_Batch_files_wafer_23012020_011008.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		01:59:32	Move the file: Prediction_Batch_files_wafer_28012020_051011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		01:59:33	Move the file: Prediction_Batch_files_wafer_29012020_060756.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		01:59:33	Move the file: Prediction_Batch_files_wafer_31012020_090811.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		01:59:36	Successfully convert the file Prediction_Batch_files_wafer_13012020_090817.csv NAN values to 'NULL' 
+2021-04-25		01:59:38	Successfully convert the file Prediction_Batch_files_wafer_16012020_051629.csv NAN values to 'NULL' 
+2021-04-25		01:59:39	Successfully convert the file Prediction_Batch_files_wafer_20022020_090716.csv NAN values to 'NULL' 
+2021-04-25		01:59:40	Successfully convert the file Prediction_Batch_files_wafer_21012020_080913.csv NAN values to 'NULL' 
+2021-04-25		01:59:42	Successfully convert the file Prediction_Batch_files_wafer_23012020_041211.csv NAN values to 'NULL' 
+2021-04-25		01:59:44	Successfully convert the file Prediction_Batch_files_wafer_27012020_080911.csv NAN values to 'NULL' 
+2021-04-25		01:59:46	Successfully convert the file Prediction_Batch_files_wafer_28012020_090817.csv NAN values to 'NULL' 
+2021-04-25		01:59:48	Successfully convert the file Prediction_Batch_files_wafer_28042020_031911.csv NAN values to 'NULL' 
+2021-04-25		01:59:49	Successfully convert the file Prediction_Batch_files_wafer_29012020_050617.csv NAN values to 'NULL' 
+2021-04-25		02:02:25	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_13012020_141000.csv
+2021-04-25		02:02:25	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_14012020_113045.csv
+2021-04-25		02:02:25	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_15010_130532.csv
+2021-04-25		02:02:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_07012020_041011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:02:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_13012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:02:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_16012020_051629.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:02:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20012020_090819.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:02:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20022020_090716.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:02:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_21012020_080913.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:02:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_22022020_041119.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:02:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_011008.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:02:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_041211.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:02:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_27012020_080911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:02:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_051011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:02:26	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:02:26	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28042020_031911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:02:26	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_050617.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:02:26	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_060756.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:02:26	Succcessfully Validate the File name: Prediction_Batch_files_wafer_31012020_090811.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:02:26	file Prediction_Batch_files_wafer_07012020_041011.csv columns is matching with our Schema
+2021-04-25		02:02:26	file Prediction_Batch_files_wafer_13012020_090817.csv columns is matching with our Schema
+2021-04-25		02:02:26	file Prediction_Batch_files_wafer_16012020_051629.csv columns is matching with our Schema
+2021-04-25		02:02:26	file Prediction_Batch_files_wafer_20012020_090819.csv columns is matching with our Schema
+2021-04-25		02:02:26	file Prediction_Batch_files_wafer_20022020_090716.csv columns is matching with our Schema
+2021-04-25		02:02:26	file Prediction_Batch_files_wafer_21012020_080913.csv columns is matching with our Schema
+2021-04-25		02:02:26	file Prediction_Batch_files_wafer_22022020_041119.csv columns is matching with our Schema
+2021-04-25		02:02:27	file Prediction_Batch_files_wafer_23012020_011008.csv columns is matching with our Schema
+2021-04-25		02:02:27	file Prediction_Batch_files_wafer_23012020_041211.csv columns is matching with our Schema
+2021-04-25		02:02:27	file Prediction_Batch_files_wafer_27012020_080911.csv columns is matching with our Schema
+2021-04-25		02:02:27	file Prediction_Batch_files_wafer_28012020_051011.csv columns is matching with our Schema
+2021-04-25		02:02:27	file Prediction_Batch_files_wafer_28012020_090817.csv columns is matching with our Schema
+2021-04-25		02:02:27	file Prediction_Batch_files_wafer_28042020_031911.csv columns is matching with our Schema
+2021-04-25		02:02:27	file Prediction_Batch_files_wafer_29012020_050617.csv columns is matching with our Schema
+2021-04-25		02:02:27	file Prediction_Batch_files_wafer_29012020_060756.csv columns is matching with our Schema
+2021-04-25		02:02:27	file Prediction_Batch_files_wafer_31012020_090811.csv columns is matching with our Schema
+2021-04-25		02:02:28	Move the file: Prediction_Batch_files_wafer_07012020_041011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		02:02:28	Move the file: Prediction_Batch_files_wafer_20012020_090819.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		02:02:29	Move the file: Prediction_Batch_files_wafer_22022020_041119.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		02:02:29	Move the file: Prediction_Batch_files_wafer_23012020_011008.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		02:02:30	Move the file: Prediction_Batch_files_wafer_28012020_051011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		02:02:31	Move the file: Prediction_Batch_files_wafer_29012020_060756.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		02:02:31	Move the file: Prediction_Batch_files_wafer_31012020_090811.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		02:02:34	Successfully convert the file Prediction_Batch_files_wafer_13012020_090817.csv NAN values to 'NULL' 
+2021-04-25		02:02:36	Successfully convert the file Prediction_Batch_files_wafer_16012020_051629.csv NAN values to 'NULL' 
+2021-04-25		02:02:38	Successfully convert the file Prediction_Batch_files_wafer_20022020_090716.csv NAN values to 'NULL' 
+2021-04-25		02:02:39	Successfully convert the file Prediction_Batch_files_wafer_21012020_080913.csv NAN values to 'NULL' 
+2021-04-25		02:02:41	Successfully convert the file Prediction_Batch_files_wafer_23012020_041211.csv NAN values to 'NULL' 
+2021-04-25		02:02:42	Successfully convert the file Prediction_Batch_files_wafer_27012020_080911.csv NAN values to 'NULL' 
+2021-04-25		02:02:45	Successfully convert the file Prediction_Batch_files_wafer_28012020_090817.csv NAN values to 'NULL' 
+2021-04-25		02:02:46	Successfully convert the file Prediction_Batch_files_wafer_28042020_031911.csv NAN values to 'NULL' 
+2021-04-25		02:02:48	Successfully convert the file Prediction_Batch_files_wafer_29012020_050617.csv NAN values to 'NULL' 
+2021-04-25		02:03:22	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_13012020_141000.csv
+2021-04-25		02:03:22	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_14012020_113045.csv
+2021-04-25		02:03:22	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_15010_130532.csv
+2021-04-25		02:03:22	Succcessfully Validate the File name: Prediction_Batch_files_wafer_07012020_041011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:03:22	Succcessfully Validate the File name: Prediction_Batch_files_wafer_13012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:03:22	Succcessfully Validate the File name: Prediction_Batch_files_wafer_16012020_051629.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:03:22	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20012020_090819.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:03:22	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20022020_090716.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:03:22	Succcessfully Validate the File name: Prediction_Batch_files_wafer_21012020_080913.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:03:22	Succcessfully Validate the File name: Prediction_Batch_files_wafer_22022020_041119.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:03:22	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_011008.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:03:22	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_041211.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:03:22	Succcessfully Validate the File name: Prediction_Batch_files_wafer_27012020_080911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:03:22	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_051011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:03:22	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:03:22	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28042020_031911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:03:22	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_050617.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:03:22	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_060756.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:03:22	Succcessfully Validate the File name: Prediction_Batch_files_wafer_31012020_090811.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		02:03:22	file Prediction_Batch_files_wafer_07012020_041011.csv columns is matching with our Schema
+2021-04-25		02:03:22	file Prediction_Batch_files_wafer_13012020_090817.csv columns is matching with our Schema
+2021-04-25		02:03:22	file Prediction_Batch_files_wafer_16012020_051629.csv columns is matching with our Schema
+2021-04-25		02:03:23	file Prediction_Batch_files_wafer_20012020_090819.csv columns is matching with our Schema
+2021-04-25		02:03:23	file Prediction_Batch_files_wafer_20022020_090716.csv columns is matching with our Schema
+2021-04-25		02:03:23	file Prediction_Batch_files_wafer_21012020_080913.csv columns is matching with our Schema
+2021-04-25		02:03:23	file Prediction_Batch_files_wafer_22022020_041119.csv columns is matching with our Schema
+2021-04-25		02:03:23	file Prediction_Batch_files_wafer_23012020_011008.csv columns is matching with our Schema
+2021-04-25		02:03:23	file Prediction_Batch_files_wafer_23012020_041211.csv columns is matching with our Schema
+2021-04-25		02:03:23	file Prediction_Batch_files_wafer_27012020_080911.csv columns is matching with our Schema
+2021-04-25		02:03:23	file Prediction_Batch_files_wafer_28012020_051011.csv columns is matching with our Schema
+2021-04-25		02:03:23	file Prediction_Batch_files_wafer_28012020_090817.csv columns is matching with our Schema
+2021-04-25		02:03:23	file Prediction_Batch_files_wafer_28042020_031911.csv columns is matching with our Schema
+2021-04-25		02:03:23	file Prediction_Batch_files_wafer_29012020_050617.csv columns is matching with our Schema
+2021-04-25		02:03:23	file Prediction_Batch_files_wafer_29012020_060756.csv columns is matching with our Schema
+2021-04-25		02:03:23	file Prediction_Batch_files_wafer_31012020_090811.csv columns is matching with our Schema
+2021-04-25		02:03:24	Move the file: Prediction_Batch_files_wafer_07012020_041011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		02:03:24	Move the file: Prediction_Batch_files_wafer_20012020_090819.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		02:03:25	Move the file: Prediction_Batch_files_wafer_22022020_041119.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		02:03:25	Move the file: Prediction_Batch_files_wafer_23012020_011008.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		02:03:25	Move the file: Prediction_Batch_files_wafer_28012020_051011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		02:03:26	Move the file: Prediction_Batch_files_wafer_29012020_060756.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		02:03:26	Move the file: Prediction_Batch_files_wafer_31012020_090811.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		02:03:29	Successfully convert the file Prediction_Batch_files_wafer_13012020_090817.csv NAN values to 'NULL' 
+2021-04-25		02:03:30	Successfully convert the file Prediction_Batch_files_wafer_16012020_051629.csv NAN values to 'NULL' 
+2021-04-25		02:03:31	Successfully convert the file Prediction_Batch_files_wafer_20022020_090716.csv NAN values to 'NULL' 
+2021-04-25		02:03:33	Successfully convert the file Prediction_Batch_files_wafer_21012020_080913.csv NAN values to 'NULL' 
+2021-04-25		02:03:35	Successfully convert the file Prediction_Batch_files_wafer_23012020_041211.csv NAN values to 'NULL' 
+2021-04-25		02:03:36	Successfully convert the file Prediction_Batch_files_wafer_27012020_080911.csv NAN values to 'NULL' 
+2021-04-25		02:03:38	Successfully convert the file Prediction_Batch_files_wafer_28012020_090817.csv NAN values to 'NULL' 
+2021-04-25		02:03:40	Successfully convert the file Prediction_Batch_files_wafer_28042020_031911.csv NAN values to 'NULL' 
+2021-04-25		02:03:41	Successfully convert the file Prediction_Batch_files_wafer_29012020_050617.csv NAN values to 'NULL' 
+2021-04-25		04:02:15	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_13012020_141000.csv
+2021-04-25		04:02:15	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_14012020_113045.csv
+2021-04-25		04:02:15	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_15010_130532.csv
+2021-04-25		04:02:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_07012020_041011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:02:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_13012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:02:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_16012020_051629.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:02:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20012020_090819.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:02:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20022020_090716.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:02:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_21012020_080913.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:02:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_22022020_041119.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:02:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_011008.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:02:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_041211.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:02:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_27012020_080911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:02:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_051011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:02:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:02:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28042020_031911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:02:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_050617.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:02:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_060756.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:02:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_31012020_090811.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:02:15	file Prediction_Batch_files_wafer_07012020_041011.csv columns is matching with our Schema
+2021-04-25		04:02:16	file Prediction_Batch_files_wafer_13012020_090817.csv columns is matching with our Schema
+2021-04-25		04:02:16	file Prediction_Batch_files_wafer_16012020_051629.csv columns is matching with our Schema
+2021-04-25		04:02:16	file Prediction_Batch_files_wafer_20012020_090819.csv columns is matching with our Schema
+2021-04-25		04:02:16	file Prediction_Batch_files_wafer_20022020_090716.csv columns is matching with our Schema
+2021-04-25		04:02:16	file Prediction_Batch_files_wafer_21012020_080913.csv columns is matching with our Schema
+2021-04-25		04:02:16	file Prediction_Batch_files_wafer_22022020_041119.csv columns is matching with our Schema
+2021-04-25		04:02:16	file Prediction_Batch_files_wafer_23012020_011008.csv columns is matching with our Schema
+2021-04-25		04:02:16	file Prediction_Batch_files_wafer_23012020_041211.csv columns is matching with our Schema
+2021-04-25		04:02:16	file Prediction_Batch_files_wafer_27012020_080911.csv columns is matching with our Schema
+2021-04-25		04:02:17	file Prediction_Batch_files_wafer_28012020_051011.csv columns is matching with our Schema
+2021-04-25		04:02:17	file Prediction_Batch_files_wafer_28012020_090817.csv columns is matching with our Schema
+2021-04-25		04:02:17	file Prediction_Batch_files_wafer_28042020_031911.csv columns is matching with our Schema
+2021-04-25		04:02:17	file Prediction_Batch_files_wafer_29012020_050617.csv columns is matching with our Schema
+2021-04-25		04:02:17	file Prediction_Batch_files_wafer_29012020_060756.csv columns is matching with our Schema
+2021-04-25		04:02:17	file Prediction_Batch_files_wafer_31012020_090811.csv columns is matching with our Schema
+2021-04-25		04:02:17	Move the file: Prediction_Batch_files_wafer_07012020_041011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:02:18	Move the file: Prediction_Batch_files_wafer_20012020_090819.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:02:19	Move the file: Prediction_Batch_files_wafer_22022020_041119.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:02:19	Move the file: Prediction_Batch_files_wafer_23012020_011008.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:02:19	Move the file: Prediction_Batch_files_wafer_28012020_051011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:02:20	Move the file: Prediction_Batch_files_wafer_29012020_060756.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:02:20	Move the file: Prediction_Batch_files_wafer_31012020_090811.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:02:24	Successfully convert the file Prediction_Batch_files_wafer_13012020_090817.csv NAN values to 'NULL' 
+2021-04-25		04:02:25	Successfully convert the file Prediction_Batch_files_wafer_16012020_051629.csv NAN values to 'NULL' 
+2021-04-25		04:02:26	Successfully convert the file Prediction_Batch_files_wafer_20022020_090716.csv NAN values to 'NULL' 
+2021-04-25		04:02:28	Successfully convert the file Prediction_Batch_files_wafer_21012020_080913.csv NAN values to 'NULL' 
+2021-04-25		04:02:30	Successfully convert the file Prediction_Batch_files_wafer_23012020_041211.csv NAN values to 'NULL' 
+2021-04-25		04:02:32	Successfully convert the file Prediction_Batch_files_wafer_27012020_080911.csv NAN values to 'NULL' 
+2021-04-25		04:02:34	Successfully convert the file Prediction_Batch_files_wafer_28012020_090817.csv NAN values to 'NULL' 
+2021-04-25		04:02:36	Successfully convert the file Prediction_Batch_files_wafer_28042020_031911.csv NAN values to 'NULL' 
+2021-04-25		04:02:37	Successfully convert the file Prediction_Batch_files_wafer_29012020_050617.csv NAN values to 'NULL' 
+2021-04-25		04:03:11	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_13012020_141000.csv
+2021-04-25		04:03:11	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_14012020_113045.csv
+2021-04-25		04:03:11	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_15010_130532.csv
+2021-04-25		04:03:11	Succcessfully Validate the File name: Prediction_Batch_files_wafer_07012020_041011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:03:11	Succcessfully Validate the File name: Prediction_Batch_files_wafer_13012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:03:11	Succcessfully Validate the File name: Prediction_Batch_files_wafer_16012020_051629.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:03:11	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20012020_090819.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:03:11	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20022020_090716.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:03:11	Succcessfully Validate the File name: Prediction_Batch_files_wafer_21012020_080913.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:03:11	Succcessfully Validate the File name: Prediction_Batch_files_wafer_22022020_041119.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:03:11	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_011008.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:03:11	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_041211.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:03:11	Succcessfully Validate the File name: Prediction_Batch_files_wafer_27012020_080911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:03:11	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_051011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:03:11	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:03:11	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28042020_031911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:03:11	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_050617.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:03:11	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_060756.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:03:11	Succcessfully Validate the File name: Prediction_Batch_files_wafer_31012020_090811.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:03:11	file Prediction_Batch_files_wafer_07012020_041011.csv columns is matching with our Schema
+2021-04-25		04:03:11	file Prediction_Batch_files_wafer_13012020_090817.csv columns is matching with our Schema
+2021-04-25		04:03:11	file Prediction_Batch_files_wafer_16012020_051629.csv columns is matching with our Schema
+2021-04-25		04:03:12	file Prediction_Batch_files_wafer_20012020_090819.csv columns is matching with our Schema
+2021-04-25		04:03:12	file Prediction_Batch_files_wafer_20022020_090716.csv columns is matching with our Schema
+2021-04-25		04:03:12	file Prediction_Batch_files_wafer_21012020_080913.csv columns is matching with our Schema
+2021-04-25		04:03:12	file Prediction_Batch_files_wafer_22022020_041119.csv columns is matching with our Schema
+2021-04-25		04:03:12	file Prediction_Batch_files_wafer_23012020_011008.csv columns is matching with our Schema
+2021-04-25		04:03:12	file Prediction_Batch_files_wafer_23012020_041211.csv columns is matching with our Schema
+2021-04-25		04:03:12	file Prediction_Batch_files_wafer_27012020_080911.csv columns is matching with our Schema
+2021-04-25		04:03:12	file Prediction_Batch_files_wafer_28012020_051011.csv columns is matching with our Schema
+2021-04-25		04:03:12	file Prediction_Batch_files_wafer_28012020_090817.csv columns is matching with our Schema
+2021-04-25		04:03:12	file Prediction_Batch_files_wafer_28042020_031911.csv columns is matching with our Schema
+2021-04-25		04:03:12	file Prediction_Batch_files_wafer_29012020_050617.csv columns is matching with our Schema
+2021-04-25		04:03:12	file Prediction_Batch_files_wafer_29012020_060756.csv columns is matching with our Schema
+2021-04-25		04:03:13	file Prediction_Batch_files_wafer_31012020_090811.csv columns is matching with our Schema
+2021-04-25		04:03:13	Move the file: Prediction_Batch_files_wafer_07012020_041011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:03:13	Move the file: Prediction_Batch_files_wafer_20012020_090819.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:03:14	Move the file: Prediction_Batch_files_wafer_22022020_041119.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:03:14	Move the file: Prediction_Batch_files_wafer_23012020_011008.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:03:14	Move the file: Prediction_Batch_files_wafer_28012020_051011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:03:15	Move the file: Prediction_Batch_files_wafer_29012020_060756.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:03:15	Move the file: Prediction_Batch_files_wafer_31012020_090811.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:03:18	Successfully convert the file Prediction_Batch_files_wafer_13012020_090817.csv NAN values to 'NULL' 
+2021-04-25		04:03:20	Successfully convert the file Prediction_Batch_files_wafer_16012020_051629.csv NAN values to 'NULL' 
+2021-04-25		04:03:21	Successfully convert the file Prediction_Batch_files_wafer_20022020_090716.csv NAN values to 'NULL' 
+2021-04-25		04:03:23	Successfully convert the file Prediction_Batch_files_wafer_21012020_080913.csv NAN values to 'NULL' 
+2021-04-25		04:03:25	Successfully convert the file Prediction_Batch_files_wafer_23012020_041211.csv NAN values to 'NULL' 
+2021-04-25		04:03:26	Successfully convert the file Prediction_Batch_files_wafer_27012020_080911.csv NAN values to 'NULL' 
+2021-04-25		04:03:28	Successfully convert the file Prediction_Batch_files_wafer_28012020_090817.csv NAN values to 'NULL' 
+2021-04-25		04:03:31	Successfully convert the file Prediction_Batch_files_wafer_28042020_031911.csv NAN values to 'NULL' 
+2021-04-25		04:03:32	Successfully convert the file Prediction_Batch_files_wafer_29012020_050617.csv NAN values to 'NULL' 
+2021-04-25		04:06:15	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_13012020_141000.csv
+2021-04-25		04:06:15	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_14012020_113045.csv
+2021-04-25		04:06:15	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_15010_130532.csv
+2021-04-25		04:06:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_07012020_041011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:06:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_13012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:06:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_16012020_051629.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:06:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20012020_090819.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:06:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20022020_090716.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:06:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_21012020_080913.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:06:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_22022020_041119.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:06:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_011008.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:06:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_041211.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:06:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_27012020_080911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:06:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_051011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:06:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:06:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28042020_031911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:06:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_050617.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:06:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_060756.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:06:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_31012020_090811.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:06:15	file Prediction_Batch_files_wafer_07012020_041011.csv columns is matching with our Schema
+2021-04-25		04:06:15	file Prediction_Batch_files_wafer_13012020_090817.csv columns is matching with our Schema
+2021-04-25		04:06:16	file Prediction_Batch_files_wafer_16012020_051629.csv columns is matching with our Schema
+2021-04-25		04:06:16	file Prediction_Batch_files_wafer_20012020_090819.csv columns is matching with our Schema
+2021-04-25		04:06:16	file Prediction_Batch_files_wafer_20022020_090716.csv columns is matching with our Schema
+2021-04-25		04:06:16	file Prediction_Batch_files_wafer_21012020_080913.csv columns is matching with our Schema
+2021-04-25		04:06:16	file Prediction_Batch_files_wafer_22022020_041119.csv columns is matching with our Schema
+2021-04-25		04:06:16	file Prediction_Batch_files_wafer_23012020_011008.csv columns is matching with our Schema
+2021-04-25		04:06:17	file Prediction_Batch_files_wafer_23012020_041211.csv columns is matching with our Schema
+2021-04-25		04:06:17	file Prediction_Batch_files_wafer_27012020_080911.csv columns is matching with our Schema
+2021-04-25		04:06:17	file Prediction_Batch_files_wafer_28012020_051011.csv columns is matching with our Schema
+2021-04-25		04:06:17	file Prediction_Batch_files_wafer_28012020_090817.csv columns is matching with our Schema
+2021-04-25		04:06:17	file Prediction_Batch_files_wafer_28042020_031911.csv columns is matching with our Schema
+2021-04-25		04:06:17	file Prediction_Batch_files_wafer_29012020_050617.csv columns is matching with our Schema
+2021-04-25		04:06:17	file Prediction_Batch_files_wafer_29012020_060756.csv columns is matching with our Schema
+2021-04-25		04:06:17	file Prediction_Batch_files_wafer_31012020_090811.csv columns is matching with our Schema
+2021-04-25		04:06:18	Move the file: Prediction_Batch_files_wafer_07012020_041011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:06:18	Move the file: Prediction_Batch_files_wafer_20012020_090819.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:06:19	Move the file: Prediction_Batch_files_wafer_22022020_041119.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:06:19	Move the file: Prediction_Batch_files_wafer_23012020_011008.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:06:19	Move the file: Prediction_Batch_files_wafer_28012020_051011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:06:20	Move the file: Prediction_Batch_files_wafer_29012020_060756.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:06:20	Move the file: Prediction_Batch_files_wafer_31012020_090811.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:06:23	Successfully convert the file Prediction_Batch_files_wafer_13012020_090817.csv NAN values to 'NULL' 
+2021-04-25		04:06:25	Successfully convert the file Prediction_Batch_files_wafer_16012020_051629.csv NAN values to 'NULL' 
+2021-04-25		04:06:26	Successfully convert the file Prediction_Batch_files_wafer_20022020_090716.csv NAN values to 'NULL' 
+2021-04-25		04:06:28	Successfully convert the file Prediction_Batch_files_wafer_21012020_080913.csv NAN values to 'NULL' 
+2021-04-25		04:06:30	Successfully convert the file Prediction_Batch_files_wafer_23012020_041211.csv NAN values to 'NULL' 
+2021-04-25		04:06:32	Successfully convert the file Prediction_Batch_files_wafer_27012020_080911.csv NAN values to 'NULL' 
+2021-04-25		04:06:34	Successfully convert the file Prediction_Batch_files_wafer_28012020_090817.csv NAN values to 'NULL' 
+2021-04-25		04:06:36	Successfully convert the file Prediction_Batch_files_wafer_28042020_031911.csv NAN values to 'NULL' 
+2021-04-25		04:06:38	Successfully convert the file Prediction_Batch_files_wafer_29012020_050617.csv NAN values to 'NULL' 
+2021-04-25		04:11:39	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_13012020_141000.csv
+2021-04-25		04:11:39	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_14012020_113045.csv
+2021-04-25		04:11:39	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_15010_130532.csv
+2021-04-25		04:11:39	Succcessfully Validate the File name: Prediction_Batch_files_wafer_07012020_041011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:11:39	Succcessfully Validate the File name: Prediction_Batch_files_wafer_13012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:11:39	Succcessfully Validate the File name: Prediction_Batch_files_wafer_16012020_051629.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:11:39	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20012020_090819.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:11:39	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20022020_090716.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:11:39	Succcessfully Validate the File name: Prediction_Batch_files_wafer_21012020_080913.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:11:39	Succcessfully Validate the File name: Prediction_Batch_files_wafer_22022020_041119.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:11:39	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_011008.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:11:39	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_041211.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:11:39	Succcessfully Validate the File name: Prediction_Batch_files_wafer_27012020_080911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:11:39	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_051011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:11:40	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:11:40	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28042020_031911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:11:40	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_050617.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:11:40	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_060756.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:11:40	Succcessfully Validate the File name: Prediction_Batch_files_wafer_31012020_090811.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:11:40	file Prediction_Batch_files_wafer_07012020_041011.csv columns is matching with our Schema
+2021-04-25		04:11:40	file Prediction_Batch_files_wafer_13012020_090817.csv columns is matching with our Schema
+2021-04-25		04:11:40	file Prediction_Batch_files_wafer_16012020_051629.csv columns is matching with our Schema
+2021-04-25		04:11:40	file Prediction_Batch_files_wafer_20012020_090819.csv columns is matching with our Schema
+2021-04-25		04:11:41	file Prediction_Batch_files_wafer_20022020_090716.csv columns is matching with our Schema
+2021-04-25		04:11:41	file Prediction_Batch_files_wafer_21012020_080913.csv columns is matching with our Schema
+2021-04-25		04:11:41	file Prediction_Batch_files_wafer_22022020_041119.csv columns is matching with our Schema
+2021-04-25		04:11:41	file Prediction_Batch_files_wafer_23012020_011008.csv columns is matching with our Schema
+2021-04-25		04:11:41	file Prediction_Batch_files_wafer_23012020_041211.csv columns is matching with our Schema
+2021-04-25		04:11:41	file Prediction_Batch_files_wafer_27012020_080911.csv columns is matching with our Schema
+2021-04-25		04:11:41	file Prediction_Batch_files_wafer_28012020_051011.csv columns is matching with our Schema
+2021-04-25		04:11:42	file Prediction_Batch_files_wafer_28012020_090817.csv columns is matching with our Schema
+2021-04-25		04:11:42	file Prediction_Batch_files_wafer_28042020_031911.csv columns is matching with our Schema
+2021-04-25		04:11:42	file Prediction_Batch_files_wafer_29012020_050617.csv columns is matching with our Schema
+2021-04-25		04:11:42	file Prediction_Batch_files_wafer_29012020_060756.csv columns is matching with our Schema
+2021-04-25		04:11:42	file Prediction_Batch_files_wafer_31012020_090811.csv columns is matching with our Schema
+2021-04-25		04:11:42	Move the file: Prediction_Batch_files_wafer_07012020_041011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:11:43	Move the file: Prediction_Batch_files_wafer_20012020_090819.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:11:44	Move the file: Prediction_Batch_files_wafer_22022020_041119.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:11:44	Move the file: Prediction_Batch_files_wafer_23012020_011008.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:11:44	Move the file: Prediction_Batch_files_wafer_28012020_051011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:11:45	Move the file: Prediction_Batch_files_wafer_29012020_060756.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:11:45	Move the file: Prediction_Batch_files_wafer_31012020_090811.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:11:48	Successfully convert the file Prediction_Batch_files_wafer_13012020_090817.csv NAN values to 'NULL' 
+2021-04-25		04:11:50	Successfully convert the file Prediction_Batch_files_wafer_16012020_051629.csv NAN values to 'NULL' 
+2021-04-25		04:11:50	Successfully convert the file Prediction_Batch_files_wafer_20022020_090716.csv NAN values to 'NULL' 
+2021-04-25		04:11:52	Successfully convert the file Prediction_Batch_files_wafer_21012020_080913.csv NAN values to 'NULL' 
+2021-04-25		04:11:54	Successfully convert the file Prediction_Batch_files_wafer_23012020_041211.csv NAN values to 'NULL' 
+2021-04-25		04:11:56	Successfully convert the file Prediction_Batch_files_wafer_27012020_080911.csv NAN values to 'NULL' 
+2021-04-25		04:11:58	Successfully convert the file Prediction_Batch_files_wafer_28012020_090817.csv NAN values to 'NULL' 
+2021-04-25		04:12:00	Successfully convert the file Prediction_Batch_files_wafer_28042020_031911.csv NAN values to 'NULL' 
+2021-04-25		04:12:01	Successfully convert the file Prediction_Batch_files_wafer_29012020_050617.csv NAN values to 'NULL' 
+2021-04-25		04:17:15	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_13012020_141000.csv
+2021-04-25		04:17:15	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_14012020_113045.csv
+2021-04-25		04:17:15	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_15010_130532.csv
+2021-04-25		04:17:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_07012020_041011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:17:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_13012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:17:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_16012020_051629.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:17:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20012020_090819.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:17:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20022020_090716.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:17:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_21012020_080913.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:17:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_22022020_041119.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:17:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_011008.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:17:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_041211.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:17:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_27012020_080911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:17:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_051011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:17:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:17:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28042020_031911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:17:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_050617.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:17:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_060756.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:17:15	Succcessfully Validate the File name: Prediction_Batch_files_wafer_31012020_090811.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:17:15	file Prediction_Batch_files_wafer_07012020_041011.csv columns is matching with our Schema
+2021-04-25		04:17:15	file Prediction_Batch_files_wafer_13012020_090817.csv columns is matching with our Schema
+2021-04-25		04:17:16	file Prediction_Batch_files_wafer_16012020_051629.csv columns is matching with our Schema
+2021-04-25		04:17:16	file Prediction_Batch_files_wafer_20012020_090819.csv columns is matching with our Schema
+2021-04-25		04:17:16	file Prediction_Batch_files_wafer_20022020_090716.csv columns is matching with our Schema
+2021-04-25		04:17:16	file Prediction_Batch_files_wafer_21012020_080913.csv columns is matching with our Schema
+2021-04-25		04:17:16	file Prediction_Batch_files_wafer_22022020_041119.csv columns is matching with our Schema
+2021-04-25		04:17:16	file Prediction_Batch_files_wafer_23012020_011008.csv columns is matching with our Schema
+2021-04-25		04:17:17	file Prediction_Batch_files_wafer_23012020_041211.csv columns is matching with our Schema
+2021-04-25		04:17:17	file Prediction_Batch_files_wafer_27012020_080911.csv columns is matching with our Schema
+2021-04-25		04:17:17	file Prediction_Batch_files_wafer_28012020_051011.csv columns is matching with our Schema
+2021-04-25		04:17:17	file Prediction_Batch_files_wafer_28012020_090817.csv columns is matching with our Schema
+2021-04-25		04:17:17	file Prediction_Batch_files_wafer_28042020_031911.csv columns is matching with our Schema
+2021-04-25		04:17:17	file Prediction_Batch_files_wafer_29012020_050617.csv columns is matching with our Schema
+2021-04-25		04:17:17	file Prediction_Batch_files_wafer_29012020_060756.csv columns is matching with our Schema
+2021-04-25		04:17:17	file Prediction_Batch_files_wafer_31012020_090811.csv columns is matching with our Schema
+2021-04-25		04:17:18	Move the file: Prediction_Batch_files_wafer_07012020_041011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:17:18	Move the file: Prediction_Batch_files_wafer_20012020_090819.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:17:19	Move the file: Prediction_Batch_files_wafer_22022020_041119.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:17:19	Move the file: Prediction_Batch_files_wafer_23012020_011008.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:17:20	Move the file: Prediction_Batch_files_wafer_28012020_051011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:17:20	Move the file: Prediction_Batch_files_wafer_29012020_060756.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:17:20	Move the file: Prediction_Batch_files_wafer_31012020_090811.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:17:23	Successfully convert the file Prediction_Batch_files_wafer_13012020_090817.csv NAN values to 'NULL' 
+2021-04-25		04:17:25	Successfully convert the file Prediction_Batch_files_wafer_16012020_051629.csv NAN values to 'NULL' 
+2021-04-25		04:17:26	Successfully convert the file Prediction_Batch_files_wafer_20022020_090716.csv NAN values to 'NULL' 
+2021-04-25		04:17:28	Successfully convert the file Prediction_Batch_files_wafer_21012020_080913.csv NAN values to 'NULL' 
+2021-04-25		04:17:30	Successfully convert the file Prediction_Batch_files_wafer_23012020_041211.csv NAN values to 'NULL' 
+2021-04-25		04:17:32	Successfully convert the file Prediction_Batch_files_wafer_27012020_080911.csv NAN values to 'NULL' 
+2021-04-25		04:17:36	Successfully convert the file Prediction_Batch_files_wafer_28012020_090817.csv NAN values to 'NULL' 
+2021-04-25		04:17:38	Successfully convert the file Prediction_Batch_files_wafer_28042020_031911.csv NAN values to 'NULL' 
+2021-04-25		04:17:40	Successfully convert the file Prediction_Batch_files_wafer_29012020_050617.csv NAN values to 'NULL' 
+2021-04-25		04:20:25	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_13012020_141000.csv
+2021-04-25		04:20:25	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_14012020_113045.csv
+2021-04-25		04:20:25	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_15010_130532.csv
+2021-04-25		04:20:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_07012020_041011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:20:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_13012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:20:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_16012020_051629.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:20:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20012020_090819.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:20:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20022020_090716.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:20:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_21012020_080913.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:20:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_22022020_041119.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:20:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_011008.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:20:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_041211.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:20:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_27012020_080911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:20:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_051011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:20:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:20:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28042020_031911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:20:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_050617.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:20:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_060756.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:20:25	Succcessfully Validate the File name: Prediction_Batch_files_wafer_31012020_090811.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:20:25	file Prediction_Batch_files_wafer_07012020_041011.csv columns is matching with our Schema
+2021-04-25		04:20:26	file Prediction_Batch_files_wafer_13012020_090817.csv columns is matching with our Schema
+2021-04-25		04:20:26	file Prediction_Batch_files_wafer_16012020_051629.csv columns is matching with our Schema
+2021-04-25		04:20:26	file Prediction_Batch_files_wafer_20012020_090819.csv columns is matching with our Schema
+2021-04-25		04:20:26	file Prediction_Batch_files_wafer_20022020_090716.csv columns is matching with our Schema
+2021-04-25		04:20:26	file Prediction_Batch_files_wafer_21012020_080913.csv columns is matching with our Schema
+2021-04-25		04:20:26	file Prediction_Batch_files_wafer_22022020_041119.csv columns is matching with our Schema
+2021-04-25		04:20:27	file Prediction_Batch_files_wafer_23012020_011008.csv columns is matching with our Schema
+2021-04-25		04:20:27	file Prediction_Batch_files_wafer_23012020_041211.csv columns is matching with our Schema
+2021-04-25		04:20:27	file Prediction_Batch_files_wafer_27012020_080911.csv columns is matching with our Schema
+2021-04-25		04:20:27	file Prediction_Batch_files_wafer_28012020_051011.csv columns is matching with our Schema
+2021-04-25		04:20:27	file Prediction_Batch_files_wafer_28012020_090817.csv columns is matching with our Schema
+2021-04-25		04:20:27	file Prediction_Batch_files_wafer_28042020_031911.csv columns is matching with our Schema
+2021-04-25		04:20:27	file Prediction_Batch_files_wafer_29012020_050617.csv columns is matching with our Schema
+2021-04-25		04:20:28	file Prediction_Batch_files_wafer_29012020_060756.csv columns is matching with our Schema
+2021-04-25		04:20:28	file Prediction_Batch_files_wafer_31012020_090811.csv columns is matching with our Schema
+2021-04-25		04:20:28	Move the file: Prediction_Batch_files_wafer_07012020_041011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:20:28	Move the file: Prediction_Batch_files_wafer_20012020_090819.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:20:29	Move the file: Prediction_Batch_files_wafer_22022020_041119.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:20:29	Move the file: Prediction_Batch_files_wafer_23012020_011008.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:20:30	Move the file: Prediction_Batch_files_wafer_28012020_051011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:20:31	Move the file: Prediction_Batch_files_wafer_29012020_060756.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:20:31	Move the file: Prediction_Batch_files_wafer_31012020_090811.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:20:34	Successfully convert the file Prediction_Batch_files_wafer_13012020_090817.csv NAN values to 'NULL' 
+2021-04-25		04:20:36	Successfully convert the file Prediction_Batch_files_wafer_16012020_051629.csv NAN values to 'NULL' 
+2021-04-25		04:20:36	Successfully convert the file Prediction_Batch_files_wafer_20022020_090716.csv NAN values to 'NULL' 
+2021-04-25		04:20:40	Successfully convert the file Prediction_Batch_files_wafer_21012020_080913.csv NAN values to 'NULL' 
+2021-04-25		04:20:42	Successfully convert the file Prediction_Batch_files_wafer_23012020_041211.csv NAN values to 'NULL' 
+2021-04-25		04:20:43	Successfully convert the file Prediction_Batch_files_wafer_27012020_080911.csv NAN values to 'NULL' 
+2021-04-25		04:20:46	Successfully convert the file Prediction_Batch_files_wafer_28012020_090817.csv NAN values to 'NULL' 
+2021-04-25		04:20:50	Successfully convert the file Prediction_Batch_files_wafer_28042020_031911.csv NAN values to 'NULL' 
+2021-04-25		04:20:52	Successfully convert the file Prediction_Batch_files_wafer_29012020_050617.csv NAN values to 'NULL' 
+2021-04-25		04:22:49	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_13012020_141000.csv
+2021-04-25		04:22:49	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_14012020_113045.csv
+2021-04-25		04:22:49	File name is not according to Schema.json, filename: Prediction_Batch_files_Wafer_15010_130532.csv
+2021-04-25		04:22:49	Succcessfully Validate the File name: Prediction_Batch_files_wafer_07012020_041011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:22:49	Succcessfully Validate the File name: Prediction_Batch_files_wafer_13012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:22:49	Succcessfully Validate the File name: Prediction_Batch_files_wafer_16012020_051629.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:22:49	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20012020_090819.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:22:49	Succcessfully Validate the File name: Prediction_Batch_files_wafer_20022020_090716.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:22:49	Succcessfully Validate the File name: Prediction_Batch_files_wafer_21012020_080913.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:22:49	Succcessfully Validate the File name: Prediction_Batch_files_wafer_22022020_041119.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:22:49	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_011008.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:22:49	Succcessfully Validate the File name: Prediction_Batch_files_wafer_23012020_041211.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:22:49	Succcessfully Validate the File name: Prediction_Batch_files_wafer_27012020_080911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:22:49	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_051011.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:22:49	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28012020_090817.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:22:49	Succcessfully Validate the File name: Prediction_Batch_files_wafer_28042020_031911.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:22:49	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_050617.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:22:49	Succcessfully Validate the File name: Prediction_Batch_files_wafer_29012020_060756.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:22:50	Succcessfully Validate the File name: Prediction_Batch_files_wafer_31012020_090811.csv and copy it to ,PredictionGoodRawDataFolder
+2021-04-25		04:22:50	file Prediction_Batch_files_wafer_07012020_041011.csv columns is matching with our Schema
+2021-04-25		04:22:50	file Prediction_Batch_files_wafer_13012020_090817.csv columns is matching with our Schema
+2021-04-25		04:22:50	file Prediction_Batch_files_wafer_16012020_051629.csv columns is matching with our Schema
+2021-04-25		04:22:50	file Prediction_Batch_files_wafer_20012020_090819.csv columns is matching with our Schema
+2021-04-25		04:22:50	file Prediction_Batch_files_wafer_20022020_090716.csv columns is matching with our Schema
+2021-04-25		04:22:50	file Prediction_Batch_files_wafer_21012020_080913.csv columns is matching with our Schema
+2021-04-25		04:22:50	file Prediction_Batch_files_wafer_22022020_041119.csv columns is matching with our Schema
+2021-04-25		04:22:51	file Prediction_Batch_files_wafer_23012020_011008.csv columns is matching with our Schema
+2021-04-25		04:22:51	file Prediction_Batch_files_wafer_23012020_041211.csv columns is matching with our Schema
+2021-04-25		04:22:51	file Prediction_Batch_files_wafer_27012020_080911.csv columns is matching with our Schema
+2021-04-25		04:22:51	file Prediction_Batch_files_wafer_28012020_051011.csv columns is matching with our Schema
+2021-04-25		04:22:51	file Prediction_Batch_files_wafer_28012020_090817.csv columns is matching with our Schema
+2021-04-25		04:22:52	file Prediction_Batch_files_wafer_28042020_031911.csv columns is matching with our Schema
+2021-04-25		04:22:52	file Prediction_Batch_files_wafer_29012020_050617.csv columns is matching with our Schema
+2021-04-25		04:22:52	file Prediction_Batch_files_wafer_29012020_060756.csv columns is matching with our Schema
+2021-04-25		04:22:52	file Prediction_Batch_files_wafer_31012020_090811.csv columns is matching with our Schema
+2021-04-25		04:22:52	Move the file: Prediction_Batch_files_wafer_07012020_041011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:22:53	Move the file: Prediction_Batch_files_wafer_20012020_090819.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:22:53	Move the file: Prediction_Batch_files_wafer_22022020_041119.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:22:54	Move the file: Prediction_Batch_files_wafer_23012020_011008.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:22:54	Move the file: Prediction_Batch_files_wafer_28012020_051011.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:22:55	Move the file: Prediction_Batch_files_wafer_29012020_060756.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:22:55	Move the file: Prediction_Batch_files_wafer_31012020_090811.csv to PredictionBadRawDataFolder because this file contains all the null values in a  column: Sensor-86
+2021-04-25		04:22:59	Successfully convert the file Prediction_Batch_files_wafer_13012020_090817.csv NAN values to 'NULL' 
+2021-04-25		04:23:01	Successfully convert the file Prediction_Batch_files_wafer_16012020_051629.csv NAN values to 'NULL' 
+2021-04-25		04:23:01	Successfully convert the file Prediction_Batch_files_wafer_20022020_090716.csv NAN values to 'NULL' 
+2021-04-25		04:23:04	Successfully convert the file Prediction_Batch_files_wafer_21012020_080913.csv NAN values to 'NULL' 
+2021-04-25		04:23:07	Successfully convert the file Prediction_Batch_files_wafer_23012020_041211.csv NAN values to 'NULL' 
+2021-04-25		04:23:08	Successfully convert the file Prediction_Batch_files_wafer_27012020_080911.csv NAN values to 'NULL' 
+2021-04-25		04:23:11	Successfully convert the file Prediction_Batch_files_wafer_28012020_090817.csv NAN values to 'NULL' 
+2021-04-25		04:23:13	Successfully convert the file Prediction_Batch_files_wafer_28042020_031911.csv NAN values to 'NULL' 
+2021-04-25		04:23:15	Successfully convert the file Prediction_Batch_files_wafer_29012020_050617.csv NAN values to 'NULL' 

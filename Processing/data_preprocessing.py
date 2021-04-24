@@ -5,10 +5,10 @@ import shutil
 from sklearn.impute import KNNImputer
 import numpy as np
 class preocess_data:
-    def __init__(self):
+    def __init__(self,file_path,exception_file_path):
         self.log=app_logger.logger()
-        self.file=open('TrainingLogs/data_preprocessing.txt','a+')
-        self.exception_file=open('TrainingLogs/Exception.txt','a+')
+        self.file=open(file_path,'a+')
+        self.exception_file=open(exception_file_path,'a+')
     def remove_column(self,df,column):
         try:
             df=df.drop(column,axis=1)
@@ -16,7 +16,6 @@ class preocess_data:
             
             return df
         except Exception as e:
-            print(e)
             self.log.log(self.file,f"\tCouldn't remove {column} due to error: "+str(e))
             self.log.log(self.exception_file,f"\tCouldn't remove {column} due to error: "+str(e))
     def seprate_labels_and_features(self,df):
@@ -26,7 +25,6 @@ class preocess_data:
             self.log.log(self.file,f"\tSucessfully seprate labels and features")
             return features,labels
         except Exception as e:
-            print(e)
             self.log.log(self.file,f"\tCouldn't seprate labels and features due to error: "+str(e))
             self.log.log(self.exception_file,f"\tseprate labels and features due to error: "+str(e))
     def isnull(self,df):
@@ -72,7 +70,7 @@ class preocess_data:
                     self.log.log(self.file,f'\tWarning: {col} has zero standared deviation')
             self.log.log(self.file,f'\t{col} columns removed sucessfully as they has zero standared deviation')
             return self.remove_column(data,zero_std_col)
-        except:
+        except Exception as e:
             self.log.log(self.file,f"\tCouldn't complete the process of drop_column_with_std_zero due to error: "+str(e))
             self.log.log(self.exception_file,f"\tCouldn't complete the process of drop_column_with_std_zero due to error: "+str(e))
 

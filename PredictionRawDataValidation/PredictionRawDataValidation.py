@@ -43,7 +43,6 @@ class PredictionRawDataValidation:
             file.close()
             exc_type, exc_obj, exc_tb = sys.exc_info()
             fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-            print(exc_type, fname, exc_tb.tb_lineno)
             raise e
 
         
@@ -130,21 +129,13 @@ class PredictionRawDataValidation:
         self.PredictioncreateBadRawDataFolder()
         files=os.listdir(self.directory_path)
         for f in files:
-            print(f)
             if re.match(regex,f):
-                print("file match,",file)
                 file_name,_=f.split('.')
-                print(file_name.split('_')[4:])
                 filedatestamp,timestamptime=file_name.split('_')[4:]
-                # print(type(timestamptime))
-                # print(type(filedatestamp))
-                # filedatestamp=int(filedatestamp)
-                # timestamptime=int(timestamptime)
+                
 
                 if len(filedatestamp)==LengthOfDateStampInFile:
-                    print('filedatestamp',len(filedatestamp),f)
                     if len(timestamptime)==LengthOfTimeStampInFile:
-                        print('timestamptime',len(timestamptime),f)
 
                         shutil.copy(f'Prediction_Batch_Files/{f}','PredictionGoodRawDataFolder')
                         file=open('PredictionLogs/PredictionDataValidationlogs.txt','a+')
@@ -174,8 +165,7 @@ class PredictionRawDataValidation:
         path='PredictionGoodRawDataFolder'
         files=os.listdir(path)
         for f in files:
-            # print("read csv",pd.read_csv(path+'/'+f).shape[1])
-            # print("Number of columns",NumberofColumns)
+            
             if NumberofColumns==pd.read_csv(path+'/'+f).shape[1]:
                 file=open('PredictionLogs/PredictionDataValidationlogs.txt','a+')
                 message=f"\tfile {f} columns is matching with our Schema"
@@ -246,7 +236,6 @@ class PredictionRawDataValidation:
                 data=pd.read_csv(csv_file_path+'/'+f)
                 data.rename(columns={'Unnamed: 0':'Wafer'},inplace=True)
                 data.to_csv(csv_file_path+'/'+f,index=False)
-                print('f......: ',f)
             # file=open('PredictionLogs/PredictionDataValidationlogs.txt','a+')
             # message=f"\tSuccessfully renamed the first file {f} column from 'Unnamed: 0' to 'Wafer'"
             # self.log.log(file,message)
