@@ -45,6 +45,11 @@ __Run the follwing command after installing requirements.txt__
 ```bash
 python app.py
 ```
+__Follow the following steps to run in dockers as I given a wafer_fault_detection.tar file__
+```bash
+>> docker load < wafer_fault_detection.tar
+>> docker run -p [your port number]:5000 --name [Give any name] wafer_fault_detection:latest
+```
 ## Directory Tree 
 ```
         PredictionDataValidation.py
