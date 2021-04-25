@@ -16,12 +16,10 @@
  
  __Frontent based on html, css.__
   
-  ![error check your internet](https://github.com/IamVicky90/Health-App/blob/main/git%20images/Capture.PNG)
+  ![error check your internet](https://github.com/IamVicky90/END-TO-END-Wafer-Machiine-Learning-Project-With-MLOPS/blob/main/images/Front.PNG)
   
   
-  __Click the images for the predictions.__
-  
-  ![error check your internet](https://github.com/IamVicky90/Health-App/blob/main/git%20images/1.PNG)
+
   
  
 
@@ -61,6 +59,8 @@ python app.py
         test.py
         trainModel.py
         train_schema.json
+        images
+            Front.PNG
         .vscode/
             settings.json
         DataBaseOperation/
