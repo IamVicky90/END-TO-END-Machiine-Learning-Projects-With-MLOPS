@@ -49,71 +49,254 @@ python app.py
 ```
 ## Directory Tree 
 ```
-├── .vscode
-│   ├── settings.json
-├── Model
-│   ├── Chest XRay Pnemonia xception model.h5
-│   ├── Heart_disease_ab_0.90_model.sav
-│   ├── brest_cancer_rf_model.sav
-│   ├── diabetes_xg_0.76_model.sav
-│   ├── kidney_disease_ab1_model.sav
-│   └── skin cancer vgg16 model.h5
-├── chest_xray
-│   ├── Test
-    │   ├── NORMAL.
-    │   ├── PNEUMONIA
-│   ├── Train
-    │   ├── NORMAL.
-    │   ├── PNEUMONIA
-│   ├── Val
-    │   ├── NORMAL.
-    │   ├── PNEUMONIA
-├── git images
-│   ├── 2.PNG
-│   ├── capture.PNG
-
-├── .ipynb notebooks
-│   ├── Breast Cancer.ipynb
-│   ├── Chest XRay Pnemonia.ipynb
-│   ├── Heart Disease.ipynb
-│   ├── Kidney Disease.ipynb
-│   ├── Real_skin_cancer.ipynb
-│   └── diabetes.ipynb
-
-├── skin cancer dl
-│   ├── Test
-    │   ├── benign
-    │   ├── malignant
-│   ├── Train
-    │   ├── benign
-    │   ├── malignant
-
-├── static
-│   ├── css
-│   ├── Images
-│   ├── js
-
-├── templates
-│   ├── base.html
-│   ├── breast.html
-│   ├── diabtes.html
-│   ├── heart.html
-│   ├── index.html
-│   ├── kidney.html
-│   ├── pnemonia.html
-│   ├── skin.html
-│   ├── skin_base.html
-
-
-├── Breast_cancer_data.csv
-├── app.py
-├── cancer desc.txt
-├── diabetes.csv
-├── heart.csv
-├── kidney disease desc.txt
-├── kidney_disease.csv 
-├── README.md
-├── requirements.txt
+        PredictionDataValidation.py
+        Procfile
+        Runtime.txt
+        TrainingDataValidation.py
+        app.py
+        flask_monitoringdashboard.db
+        pred_schema.json
+        pred_wafer.db
+        requirements.txt
+        test.py
+        trainModel.py
+        train_schema.json
+        .vscode/
+            settings.json
+        DataBaseOperation/
+            dboperation.py
+            
+        Models/
+            XGBClassifier_cluster_0.sav
+            XGBClassifier_cluster_1.sav
+            XGBClassifier_cluster_2.sav
+            kmeans_clustering.sav
+        Null_csv/
+            null_data_info.csv
+        PredictionBadRawDataFolder/
+            Prediction_Batch_files_Wafer_13012020_141000.csv
+            Prediction_Batch_files_Wafer_14012020_113045.csv
+            Prediction_Batch_files_Wafer_15010_130532.csv
+            Prediction_Batch_files_wafer_07012020_041011.csv
+            Prediction_Batch_files_wafer_20012020_090819.csv
+            Prediction_Batch_files_wafer_22022020_041119.csv
+            Prediction_Batch_files_wafer_23012020_011008.csv
+            Prediction_Batch_files_wafer_28012020_051011.csv
+            Prediction_Batch_files_wafer_29012020_060756.csv
+            Prediction_Batch_files_wafer_31012020_090811.csv
+        PredictionFileFromDB/
+            predictionInput.csv
+        PredictionGoodRawDataFolder/
+            Prediction_Batch_files_wafer_13012020_090817.csv
+            Prediction_Batch_files_wafer_16012020_051629.csv
+            Prediction_Batch_files_wafer_20022020_090716.csv
+            Prediction_Batch_files_wafer_21012020_080913.csv
+            Prediction_Batch_files_wafer_23012020_041211.csv
+            Prediction_Batch_files_wafer_27012020_080911.csv
+            Prediction_Batch_files_wafer_28012020_090817.csv
+            Prediction_Batch_files_wafer_28042020_031911.csv
+            Prediction_Batch_files_wafer_29012020_050617.csv
+        PredictionLogs/
+            Exception.txt
+            MainPredictionDataValidationlogs.txt
+            PredictionBadRawDataFolder.txt
+            PredictionDataValidationlogs.txt
+            PredictionGoodRawDataFolder.txt
+            PredictiondeleteBadRawDataFolder.txt
+            PredictiondeleteGoodRawDataFolder.txt
+            data_preprocessing.txt
+            dbOperation.txt
+            getdata.txt
+            modelPrediction.py
+            models_saving_and_loading_logs.txt
+            valuesFromSchemaLogs.txt
+        PredictionProcess/
+            modelPridiction.py
+            __pycache__/
+                modelPridiction.cpython-36.pyc
+        PredictionRawDataValidation/
+            PredictionRawDataValidation.py
+            __pycache__/
+                PredictionRawDataValidation.cpython-36.pyc
+        Prediction_Batch_Files/
+            Prediction_Batch_files_Wafer_13012020_141000.csv
+            Prediction_Batch_files_Wafer_14012020_113045.csv
+            Prediction_Batch_files_Wafer_15010_130532.csv
+            Prediction_Batch_files_wafer_07012020_041011.csv
+            Prediction_Batch_files_wafer_13012020_090817.csv
+            Prediction_Batch_files_wafer_16012020_051629.csv
+            Prediction_Batch_files_wafer_20012020_090819.csv
+            Prediction_Batch_files_wafer_20022020_090716.csv
+            Prediction_Batch_files_wafer_21012020_080913.csv
+            Prediction_Batch_files_wafer_22022020_041119.csv
+            Prediction_Batch_files_wafer_23012020_011008.csv
+            Prediction_Batch_files_wafer_23012020_041211.csv
+            Prediction_Batch_files_wafer_27012020_080911.csv
+            Prediction_Batch_files_wafer_28012020_051011.csv
+            Prediction_Batch_files_wafer_28012020_090817.csv
+            Prediction_Batch_files_wafer_28042020_031911.csv
+            Prediction_Batch_files_wafer_29012020_050617.csv
+            Prediction_Batch_files_wafer_29012020_060756.csv
+            Prediction_Batch_files_wafer_31012020_090811.csv
+        Prediction_Output_File/
+            Predictions.csv
+        Processing/
+            clustering.py
+            data_preprocessing.py
+            k-means-elbowplt.png
+            oversampling.py
+            __pycache__/
+                clustering.cpython-36.pyc
+                clustering.cpython-37.pyc
+                clustering.cpython-38.pyc
+                data_preprocessing.cpython-36.pyc
+                data_preprocessing.cpython-37.pyc
+                data_preprocessing.cpython-38.pyc
+                oversampling.cpython-36.pyc
+                oversampling.cpython-37.pyc
+        TrainingBadRawDataFolder/
+            Training_Batch_Files_Wafer12_20012.csv
+            Training_Batch_Files_Wafer_07012020_000000.csv
+            Training_Batch_Files_Wafer_07012020_223345.csv
+            Training_Batch_Files_Wafer_08012020_120000.csv
+            Training_Batch_Files_Wafer_10012020_131534.csv
+            Training_Batch_Files_Wafer_11012020_151432.csv
+            Training_Batch_Files_Wafer_12012020_111.csv
+            Training_Batch_Files_Wafer_12012020_111213.csv
+            Training_Batch_Files_Wafer_13012020_141000.csv
+            Training_Batch_Files_Wafer_14012020_113045.csv
+            Training_Batch_Files_Wafer_15010_130532.csv
+            Training_Batch_Files_Wafer_15012020_130532.csv
+            Training_Batch_Files_Wafer_18012020_121532.csv
+            Training_Batch_Files_Wafer_19012020_141432.csv
+            Training_Batch_Files_Wafer_20012020_135132.csv
+            Training_Batch_Files_Wafer_21012020_143634.csv
+            Training_Batch_Files_Wafer_22012020_173245.csv
+            Training_Batch_Files_Wafer_23012020_163456.csv
+            Training_Batch_Files_Wafer_24012020_150121.csv
+            Training_Batch_Files_Wafer_25012020_142112.csv
+            Training_Batch_Files_Wafer_fault_detection.csv
+            Training_Batch_Files_Wafer_text_130532.csv
+            Training_Batch_Files_Waferdefault_15010_130532.csv
+            Training_Batch_Files_wafer_07012020_041011.csv
+            Training_Batch_Files_wafer_16012020_134553.csv
+            Training_Batch_Files_wafer_17012020_125434.csv
+            Training_Batch_Files_wafer_20012020_090819.csv
+            Training_Batch_Files_wafer_22022020_041119.csv
+            Training_Batch_Files_wafer_23012020_011008.csv
+            Training_Batch_Files_wafer_28012020_051011.csv
+            Training_Batch_Files_wafer_29012020_060756.csv
+            Training_Batch_Files_wafer_31012020_090811.csv
+        TrainingFileFromDB/
+            trainingInput.csv
+        TrainingGoodRawDataFolder/
+            Training_Batch_Files_wafer_13012020_090817.csv
+            Training_Batch_Files_wafer_16012020_051629.csv
+            Training_Batch_Files_wafer_20022020_090716.csv
+            Training_Batch_Files_wafer_21012020_080913.csv
+            Training_Batch_Files_wafer_23012020_041211.csv
+            Training_Batch_Files_wafer_27012020_080911.csv
+            Training_Batch_Files_wafer_28012020_090817.csv
+            Training_Batch_Files_wafer_28042020_031911.csv
+            Training_Batch_Files_wafer_29012020_050617.csv
+        TrainingLogs/
+            Exception.txt
+            MainTrainingDataValidationlogs.txt
+            TrainingBadRawDataFolder.txt
+            TrainingDataValidationlogs.txt
+            TrainingGoodRawDataFolder.txt
+            TrainingdeleteBadRawDataFolder.txt
+            TrainingdeleteGoodRawDataFolder.txt
+            clustering.txt
+            data_preprocessing.txt
+            dbOperation.txt
+            getdata.txt
+            models_saving_and_loading_logs.txt
+            oversamplig.txt
+            tainModelLogs.txt
+            tuner.txt
+            valuesFromSchemaLogs.txt
+        TrainingRawDataValidation/
+            TrainingRawDataValidation.py
+            __pycache__/
+                TrainingRawDataValidation.cpython-36.pyc
+                TrainingRawDataValidation.cpython-37.pyc
+                TrainingRawDataValidation.cpython-38.pyc
+        Training_Batch_Files/
+            Training_Batch_Files_Wafer12_20012.csv
+            Training_Batch_Files_Wafer_07012020_000000.csv
+            Training_Batch_Files_Wafer_07012020_223345.csv
+            Training_Batch_Files_Wafer_08012020_120000.csv
+            Training_Batch_Files_Wafer_10012020_131534.csv
+            Training_Batch_Files_Wafer_11012020_151432.csv
+            Training_Batch_Files_Wafer_12012020_111.csv
+            Training_Batch_Files_Wafer_12012020_111213.csv
+            Training_Batch_Files_Wafer_13012020_141000.csv
+            Training_Batch_Files_Wafer_14012020_113045.csv
+            Training_Batch_Files_Wafer_15010_130532.csv
+            Training_Batch_Files_Wafer_15012020_130532.csv
+            Training_Batch_Files_Wafer_18012020_121532.csv
+            Training_Batch_Files_Wafer_19012020_141432.csv
+            Training_Batch_Files_Wafer_20012020_135132.csv
+            Training_Batch_Files_Wafer_21012020_143634.csv
+            Training_Batch_Files_Wafer_22012020_173245.csv
+            Training_Batch_Files_Wafer_23012020_163456.csv
+            Training_Batch_Files_Wafer_24012020_150121.csv
+            Training_Batch_Files_Wafer_25012020_142112.csv
+            Training_Batch_Files_Wafer_fault_detection.csv
+            Training_Batch_Files_Wafer_text_130532.csv
+            Training_Batch_Files_Waferdefault_15010_130532.csv
+            Training_Batch_Files_wafer_07012020_041011.csv
+            Training_Batch_Files_wafer_13012020_090817.csv
+            Training_Batch_Files_wafer_16012020_051629.csv
+            Training_Batch_Files_wafer_16012020_134553.csv
+            Training_Batch_Files_wafer_17012020_125434.csv
+            Training_Batch_Files_wafer_20012020_090819.csv
+            Training_Batch_Files_wafer_20022020_090716.csv
+            Training_Batch_Files_wafer_21012020_080913.csv
+            Training_Batch_Files_wafer_22022020_041119.csv
+            Training_Batch_Files_wafer_23012020_011008.csv
+            Training_Batch_Files_wafer_23012020_041211.csv
+            Training_Batch_Files_wafer_27012020_080911.csv
+            Training_Batch_Files_wafer_28012020_051011.csv
+            Training_Batch_Files_wafer_28012020_090817.csv
+            Training_Batch_Files_wafer_28042020_031911.csv
+            Training_Batch_Files_wafer_29012020_050617.csv
+            Training_Batch_Files_wafer_29012020_060756.csv
+            Training_Batch_Files_wafer_31012020_090811.csv
+        __pycache__/
+            PredictionDataValidation.cpython-36.pyc
+            TrainingDataValidation.cpython-36.pyc
+            TrainingDataValidation.cpython-37.pyc
+            TrainingDataValidation.cpython-38.pyc
+            main.cpython-36.pyc
+            trainModel.cpython-36.pyc
+            trainModel.cpython-37.pyc
+            trainModel.cpython-38.pyc
+        application_loging/
+            app_logger.py
+            __pycache__/
+                app_logger.cpython-36.pyc
+                app_logger.cpython-37.pyc
+                app_logger.cpython-38.pyc
+        load_data/
+            getdata.py
+            __pycache__/
+                getdata.cpython-36.pyc
+                getdata.cpython-37.pyc
+                getdata.cpython-38.pyc
+        model_finder/
+            tuner.py
+            __pycache__/
+                tuner.cpython-36.pyc
+                tuner.cpython-37.pyc
+        models_operation/
+            models_saving_and_loading.py
+            __pycache__/
+                models_saving_and_loading.cpython-36.pyc
+                models_saving_and_loading.cpython-37.pyc
+        templates/
+            index.html
 ```
 ## Libraries
 also mentioned in [requirements.txt](https://github.com/IamVicky90/END-TO-END-Wafer-Machiine-Learning-Project-With-MLOPS/blob/main/requirements.txt)
