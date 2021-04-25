@@ -56,7 +56,8 @@ Pillow==8.2.0
 prometheus-client==0.10.0
 prompt-toolkit==3.0.18
 psutil==5.8.0
-ptyprocess==0.7.0
+# ptyprocess==0.7.0
+gunicorn
 pycparser==2.20
 Pygments==2.8.1
 pyparsing==2.4.7
