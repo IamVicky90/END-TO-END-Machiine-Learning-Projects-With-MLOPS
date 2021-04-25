@@ -47,7 +47,7 @@ __Run the follwing command after installing requirements.txt__
 python app.py
 ```
 ## Docker
-To run the app n docker, you first need dockers installation by using the following links:
+To run the app n docker, you first need dockers installation by using the following steps:
 ```
 For windows go to the link then download and install it : https://docs.docker.com/docker-for-windows/install/
 For Ubuntu/Linux, run the command: apt install docker.io  
