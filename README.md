@@ -7,6 +7,7 @@
   * [Technical Aspect](#technical-aspect)
   * [Installation](#installation)
   * [Run](#run)
+  * [Docker Installation](#Docker)
   * [Directory Tree](#directory-tree)
   * [Libraries](#libraries)
   
@@ -44,6 +45,12 @@ To run the app in a local machine, shoot this command in the project directory:
 __Run the follwing command after installing requirements.txt__
 ```bash
 python app.py
+```
+## Docker
+To run the app n docker, you first need dockers installation by using the following links:
+```
+For windows go to the link then download and install it : https://docs.docker.com/docker-for-windows/install/
+For Ubuntu/Linux, run the command: apt install docker.io  
 ```
 __Follow the following steps to run in dockers as I given a wafer_fault_detection.tar file__
 ```bash
@@ -123,6 +130,7 @@ __Follow the following steps to run in dockers as I given a wafer_fault_detectio
             PredictionRawDataValidation.py
             __pycache__/
                 PredictionRawDataValidation.cpython-36.pyc
+        wafer_fault_detection.tar
         Prediction_Batch_Files/
             Prediction_Batch_files_Wafer_13012020_141000.csv
             Prediction_Batch_files_Wafer_14012020_113045.csv
